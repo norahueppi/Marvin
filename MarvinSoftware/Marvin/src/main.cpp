@@ -131,13 +131,19 @@ The range readings are in units of mm. */
 #include <Wire.h>
 #include <VL6180X.h>
 
+#define LED_PIN 19
+
 VL6180X sensor;
+
+int PersonDetected = 764;
 
 void setup() 
 {
   Serial.begin(115200);
   Wire.begin(18, 23, 0);
-  
+
+  pinMode(19, OUTPUT);
+
   sensor.init();
   sensor.configureDefault();
   sensor.setTimeout(500);
@@ -145,9 +151,16 @@ void setup()
 }
 
 void loop() 
-{ 
+{
   Serial.print(sensor.readRangeSingleMillimeters());
   if (sensor.timeoutOccurred()) { Serial.print(" TIMEOUT"); }
+
+  if(sensor.readRangeSingleMillimeters() <= PersonDetected){
+    digitalWrite(19, LOW);
+  }
+  else{
+    digitalWrite(19, HIGH);
+  }
   
   Serial.println();
 }
