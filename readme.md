@@ -13,6 +13,6 @@
 
 ## Documentation
 
-[Link](/documentation/documentation_marvin.md)
+[Marvin Documentation](/documentation/documentation_marvin.md)
 
 [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
