@@ -1,12 +1,12 @@
 # This is the Marvin Documentation
 ## Inhaltsverzeichnich
-**[1. Einleitung](#heading--1)**
-**[2. Anforderungen](#heading--2)**
-**[3. Planung](#heading--3)**
-**[4. Analyse](#heading--4)**
-**[5. Realisierung](#heading--5)**
-**[6. Testing](#heading--6)**
-**[7. Reflektion](#heading--7)**
-**[8. Selbständigkeitserklärung](#heading--8)**
-**[9. Arbeitsjournal](#heading--9)**
-**[10. Anhang](#heading--10)**
+1. Einleitung
+2. Anforderungen
+3. Planung
+4. Analyse
+5. Realisierung
+6. Testing
+7. Reflektion
+8. Selbständigkeitserklärung
+9. Arbeitsjournal
+10. Anhang
