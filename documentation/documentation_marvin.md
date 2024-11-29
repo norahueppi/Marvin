@@ -11,9 +11,8 @@
 9. Arbeitsjournal
 10. Anhang
 
-### Einleitung  
-    Für mein BüP Projekthabe ich mich entschieden, eine ikonische Szene aus *The hitchhicker's guide to the galaxy* nachzubilden: die stöhnende Tür. Dieses Projekt kombiniert Punkte aus Technik, Design und Unterhaltung, um Douglas Adams Klassiker auf kreative und funktionale Weise nach zu stellen.  
-    Die stöhnende Tür symbolisiert den skurrilen Charme und die technische Absurdität, die das Universum der Hichhicker's Guide prägen. Mein Ziel. ist es, die Mechanik un d den charakteristishcen Sound doeser Tür nachzuempfinden und damit einen kleinen, aber unvergesslichen Aspekt der Geschichte zum Leben zu erwecken.  
-    Ich Verlauf des Projekts werde ich mir überlegen wie ich es genauumsetzten möchte damit ich eine möglichst authentische Nachbildung erreichen kann. Dabei liegt der Schwerpunkt sowohl auf der technischen Umsetzung als auch auf der humorvollen Präsentation.  
-    Dieses Projiekt bietet mir die Möglichkeit meine Fähigkeiten in der Elektronik und der Programmierung zu erweitern.
-
+### Einleitung
+Für mwin BüP Projekt habe ich mich dazu entschieden, eine ikonische Szene aus *The hitchhicker's guide to the galaxy* nach zu bilden: die stöhnendeTür. Dieses Projekt kombiniert Punkte aus Technik, Design und Unterhaltung, um Douglas Adams Klassikerauf kreativeund funktionale weise nach zu stellen.  
+Die stöhnende Tür symbolisiert den skurrilen Charmeunf die technische Absurdität, die das Universum der Hichhicker's Guide prägen. Mein Ziel ist es, die Mechanik und den charakteristischen Sound dieser Tür nachzuempfinden und damit einen kleinen, aber unvergesslichen Aspekt der Geschichte zum LEben zu erwcken.  
+Im Verlauf des Projekts werde ich mir überlgungen zur genauen umsetzung machen, damit ich eine möglichst authentische Nachbildung erreichen kann. Dabie Liegt der Schwerpunkt sowohl auf der technischen Umsetzung als auch der humorvollen Präsentation.  
+Dieses Projekt bietet mir die Möglichkeit meine Fähigkeit in der Elektronik und der Programmierung zu erweitern.  
