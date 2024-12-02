@@ -20,13 +20,17 @@ Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
   
 - Was für ein Sensor verwnde ich?
     - *Ich werde einen TOF (Time-Of-Flight) Sensor verwenden. Genauer einen TMF8820.*
-
+  
 - Welcher Microcontroller verwende ich?
     - *Ich verwende ein ESP32-Audio-Kit verwenden mit einem ESP32-A1S Microcontroller.*
   
 - Wie soll das Projekt betrieben werden?
     - *Das Projekt wird mit einem Akku Betrieben.*
   
-- 
-    - 
+- Was für einen Akku soll ich verwnden?
+    - *Ich verwende einen 16V, 1.8Ah Akku*
+  
+- Der ESP32-A1S wird mit 3.3V betrieben. Wie mache ich die 16V in 3.3V?
+    - *Ich baue eine kleine Externe schaltung mit eienme Schaltregler*
+
 ## Bauelemente
