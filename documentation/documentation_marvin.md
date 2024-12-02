@@ -1,15 +1,7 @@
 # This is the Marvin Documentation
 ## Inhaltsverzeichnich
 1. Einleitung
-2. Anforderungen
-3. Planung
-4. Analyse
-5. Realisierung
-6. Testing
-7. Reflektion
-8. Selbständigkeitserklärung
-9. Arbeitsjournal
-10. Anhang
+2. Bauelemente
 
 ### Einleitung
 Für mein BüP Projekt habe ich mich dazu entschieden, eine ikonscihe Szene aus *The hitchhicker's guide to the galaxy* nach zu bilden: die stöhnende Tür. Dieses Projekt kombiniert Punkte aus Technik, Design und Unterhaltung, um Douglas Adams Klassikerauf kreativeund funktionale weise nach zu stellen.  
@@ -21,4 +13,4 @@ Im Verlauf des Projekts werde ich mir überlgungen zur genauen umsetzung machen,
 Dieses Projekt bietet mir die Möglichkeit meine Fähigkeit in der Elektronik und der Programmierung zu erweitern.  
   
 ### Bauelemente
-Da wir in meinem Betrieb die Tür immer offenlassen habe ich mich dafür entschieden nicht das Tür öfnnen zu 
+Da wir in meinem Betrieb die Tür immer offenlassen habe ich mich dafür entschieden nicht das öffnen der Tür zu triggern sondern die einzelnen Personen die Hindurchlaufen.
