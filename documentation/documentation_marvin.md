@@ -3,6 +3,9 @@
 1. Einleitung
 2. Realsierung
 3. Bauelemente
+4. Anhang
+5. Arbeitsjournal
+6. Zeitplan & Anforderungen
 
 ## Einleitung
 Für mein BüP Projekt habe ich mich dazu entschieden, eine ikonische Szene aus *The hitchhicker's guide to the galaxy* nach zu bilden: die stöhnende Tür. Dieses Projekt kombiniert Punkte aus Technik, Design und Unterhaltung, um Douglas Adams Klassikerauf kreativeund funktionale weise nach zu stellen.  
@@ -34,3 +37,6 @@ Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
     - *Ich baue eine kleine Externe schaltung mit eienme Schaltregler*
 
 ## Bauelemente
+### Schaltregler
+### TOF
+### ESP32
