@@ -17,9 +17,9 @@ Dieses Projekt bietet mir die Möglichkeit meine Fähigkeit in der Elektronik un
 Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
 - Wie will ich das mit dem Sensor genau angehen? Wir lassen die Tür im Betrieb immer geöffnet, ist es Sinvoll mit dem Sensor das öffnen der Tür zu Messen?
 - *Der Sensor wird oberhalb der Tür montiert. Da wir die Tür durchgehend geöffnet haben ist es nicht Sinvoll das öffnen der Tür zu messen, stattdessen misst der Sensor die einzelnen Personen die durch die Tür duch gehen.*
-  
+    
 - 
-
+  
 - Wie soll das Projekt betrieben werden?
 - *Das Projekt wird mit einem Akku Betrieben*
   
