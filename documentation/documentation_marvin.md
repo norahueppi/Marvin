@@ -14,6 +14,7 @@ Im Verlauf des Projekts werde ich mir überlgungen zur genauen umsetzung machen,
 Dieses Projekt bietet mir die Möglichkeit meine Fähigkeit in der Elektronik und der Programmierung zu erweitern.  
   
 ## Realsierung
-Für die Realsierung des Projekts
+Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
+- Wie will ich das mit dem Sensor genau angehen? Wir lassen die Tür im Betrieb immer geöffnet, ist es Sinvoll mit dem Sensor das öffnen der Tür zu Messen?
+- *Der Sensor wird oberhalb der Tür montiert. Da wir die Tür durchgehend geöffnet haben ist es nicht Sinvoll das öffnen der Tür zu messen, stattdessen misst der Sensor die einzelnen Personen die durch die Tür duch gehen.*
 ## Bauelemente
-Da wir in meinem Betrieb die Tür immer offenlassen habe ich mich dafür entschieden nicht das öffnen der Tür zu triggern sondern die einzelnen Personen die durch die Tür gehen zu triggern.
