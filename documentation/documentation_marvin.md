@@ -1,11 +1,14 @@
 # This is the Marvin Documentation
 ## Inhaltsverzeichnich
 1. Einleitung
-2. Realsierung
-3. Bauelemente
-4. Anhang
-5. Arbeitsjournal
-6. Zeitplan und Anforderungen
+2. Analyse
+3. Berechnungen
+4. Realisierung
+5. Bauelemente
+6. Testing
+7. Arbeitsjournal
+8. Anhang
+9. Zeitplan und Anforderungen
 
 ## Einleitung
 Für mein BüP Projekt habe ich mich dazu entschieden, eine ikonische Szene aus *The hitchhicker's guide to the galaxy* nach zu bilden: die stöhnende Tür. Dieses Projekt kombiniert Punkte aus Technik, Design und Unterhaltung, um Douglas Adams Klassikerauf kreativeund funktionale weise nach zu stellen.  
@@ -16,7 +19,10 @@ Im Verlauf des Projekts werde ich mir überlgungen zur genauen umsetzung machen,
   
 Dieses Projekt bietet mir die Möglichkeit meine Fähigkeit in der Elektronik und der Programmierung zu erweitern.  
   
-## Realsierung
+## Analyse
+### Theorie  
+
+### Überlegungen  
 Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
 - Wie will ich das mit dem Sensor genau angehen? Wir lassen die Tür im Betrieb immer geöffnet, ist es Sinvoll mit dem Sensor das öffnen der Tür zu Messen?
     - *Der Sensor wird oberhalb der Tür montiert. Da wir die Tür durchgehend geöffnet haben ist es nicht Sinvoll das öffnen der Tür zu messen, stattdessen misst der Sensor die einzelnen Personen die durch die Tür duch gehen.*
@@ -36,13 +42,21 @@ Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
 - Der ESP32-A1S wird mit 3.3V betrieben. Wie mache ich die 16V in 3.3V?
     - *Ich baue eine kleine Externe schaltung mit eienme Schaltregler*
 
+## Berechnungen
+
+## Realisierung
+### Funktionen
+### Aufbau
+
 ## Bauelemente
 ### Schaltregler
 ### TOF
 ### ESP32
 
-## Anhang
+## Testing
 
 ## Arbeitsjournal
+
+## Anhang
 
 ## Zeitplan und Anforderungen
