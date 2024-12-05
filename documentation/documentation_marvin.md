@@ -114,10 +114,10 @@ Das **ESP32-Audio-Kit** ist ein Entwicklungsboard, das speziell für Audioanwend
 ### KW 02
 
 ## Anhang
-[ESP32 Datenblatt](esp32-audio-kit_v2.2_sch.pdf)
-[TOF Datenblatt](TMF882X_DataSheet.pdf)
-[TOF mini Schematic](SparkFun_dToF-TMF8820_Mini_Schematic.pdf)
-[Schaltregler Dtaenblatt](R_78E_1_0-1711201.pdf)
+[ESP32 Datenblatt](esp32-audio-kit_v2.2_sch.pdf)  
+[TOF Datenblatt](TMF882X_DataSheet.pdf)  
+[TOF mini Schematic](SparkFun_dToF-TMF8820_Mini_Schematic.pdf)  
+[Schaltregler Dtaenblatt](R_78E_1_0-1711201.pdf)  
 
 ## Zeitplan und Anforderungen
 [Zeitplan und Anforderungen](Marvin_AudioAnlage_Anforderungen_NoraHueppi_20240917.xlsx)  
