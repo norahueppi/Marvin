@@ -21,7 +21,8 @@ Dieses Projekt bietet mir die Möglichkeit meine Fähigkeit in der Elektronik un
   
 ## Analyse
 ### Theorie  
-
+Das Prinzip des Projekt ist es das
+  
 ### Überlegungen  
 Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
 - Wie will ich das mit dem Sensor genau angehen? Wir lassen die Tür im Betrieb immer geöffnet, ist es Sinvoll mit dem Sensor das öffnen der Tür zu Messen?
@@ -56,6 +57,26 @@ Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
 ## Testing
 
 ## Arbeitsjournal
+### KW 36
+### KW 37
+### KW 38
+### KW 39
+### KW 40
+### KW 41
+### KW 42
+### KW 43
+### KW 44
+### KW 45
+### KW 46
+### KW 47
+### KW 48
+### KW 49
+### KW 50
+### KW 51
+### KW 52
+### KW 01
+### KW 02
+### KW 03
 
 ## Anhang
 
