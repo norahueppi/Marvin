@@ -63,25 +63,25 @@ Der **TMF8820** ist ein **Time-of-Flight (TOF)**-Sensor, der von AMS entwickelt 
     - Der Sensor emittiert Licht über eine integrierte **Laserdiode** (VCSEL - Vertical-Cavity Surface-Emitting Laser).
     - Er misst die Flugzeit des Lichts, das von einem Objekt reflektiert wird, um präzise Entfernungen zu berechnen.
 
-Messbereich
-    Der TMF8820 bietet eine maximale Reichweite von bis zu 4 Metern, abhängig von der Umgebung und den Reflexionseigenschaften des Objekts.
-    Hohe Genauigkeit bei Kurz- und Mittelstrecken.
+2. **Messbereich**
+    - Der TMF8820 bietet eine maximale Reichweite von bis zu **4 Metern**, abhängig von der Umgebung und den Reflexionseigenschaften des Objekts.
+    - Hohe Genauigkeit bei Kurz- und Mittelstrecken.
 
-Auflösung und Präzision
-    Millimetergenauigkeit, ideal für Anwendungen, die eine hohe Präzision erfordern.
-    Sehr schnelle Messzyklen, was ihn für Echtzeitanwendungen geeignet macht.
+3. **Auflösung und Präzision**
+    - **Millimetergenauigkeit**, ideal für Anwendungen, die eine hohe Präzision erfordern.
+    - Sehr schnelle Messzyklen, was ihn für Echtzeitanwendungen geeignet macht.
 
-Mehrzonen-Technologie
-    Unterstützt 3x3 Multi-Zonen-Messungen, wodurch der Sensor nicht nur die Entfernung misst, sondern auch die Richtung von Objekten erkennen kann.
-    Dies ist nützlich für Anwendungen mit mehreren Zielobjekten im Sichtfeld.
+4. **Mehrzonen-Technologie**
+    - Unterstützt **3x3 Multi-Zonen-Messungen**, wodurch der Sensor nicht nur die Entfernung misst, sondern auch die Richtung von Objekten erkennen kann.
+    - Dies ist nützlich für Anwendungen mit mehreren Zielobjekten im Sichtfeld.
 
-Größe und Integration
-    Sehr kompakt und leicht in Geräte integrierbar.
-    I²C-Schnittstelle zur einfachen Kommunikation mit Mikrocontrollern wie dem ESP32.
+5. **Größe und Integration**
+    - Sehr kompakt und leicht in Geräte integrierbar.
+    - I²C-Schnittstelle zur einfachen Kommunikation mit Mikrocontrollern wie dem ESP32.
 
-Stromverbrauch
-    Optimiert für batteriebetriebene Geräte mit geringem Stromverbrauch.
-    Stromsparmodi verfügbar, wenn der Sensor nicht aktiv ist.
+6. **Stromverbrauch**
+    - Optimiert für batteriebetriebene Geräte mit geringem Stromverbrauch.
+    - Stromsparmodi verfügbar, wenn der Sensor nicht aktiv ist.
 
 Typische Anwendungen
 
