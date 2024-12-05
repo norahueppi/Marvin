@@ -78,7 +78,6 @@ Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. 
 ### KW 52
 ### KW 01
 ### KW 02
-### KW 03
 
 ## Anhang
 
