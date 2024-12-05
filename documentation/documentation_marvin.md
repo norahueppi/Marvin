@@ -61,59 +61,62 @@ Der **TMF8820** ist ein **Time-of-Flight (TOF)**-Sensor, der von AMS entwickelt 
 ### Wesentliche Eigenschaften des TMF8820
 1. **Arbeitsprinzip: Time-of-Flight (TOF)**
     - Der Sensor emittiert Licht über eine integrierte **Laserdiode** (VCSEL - Vertical-Cavity Surface-Emitting Laser).
-    - Er misst die Flugzeit des Lichts, das von einem Objekt reflektiert wird, um präzise Entfernungen zu berechnen.
+    - Er misst die **Flugzeit** des Lichts, das von einem Objekt reflektiert wird, um präzise Entfernungen zu berechnen.
 
 2. **Messbereich**
-    - Der TMF8820 bietet eine maximale Reichweite von bis zu **4 Metern**, abhängig von der Umgebung und den Reflexionseigenschaften des Objekts.
-    - Hohe Genauigkeit bei Kurz- und Mittelstrecken.
+    - Der **TMF8820** bietet eine maximale Reichweite von bis zu **4 Metern**, abhängig von der Umgebung und den Reflexionseigenschaften des Objekts.
+    - Hohe Genauigkeit bei **Kurz-** und **Mittelstrecken**.
 
 3. **Auflösung und Präzision**
     - **Millimetergenauigkeit**, ideal für Anwendungen, die eine hohe Präzision erfordern.
-    - Sehr schnelle Messzyklen, was ihn für Echtzeitanwendungen geeignet macht.
+    - Sehr schnelle **Messzyklen**, was ihn für Echtzeitanwendungen geeignet macht.
 
 4. **Mehrzonen-Technologie**
     - Unterstützt **3x3 Multi-Zonen-Messungen**, wodurch der Sensor nicht nur die Entfernung misst, sondern auch die Richtung von Objekten erkennen kann.
     - Dies ist nützlich für Anwendungen mit mehreren Zielobjekten im Sichtfeld.
 
 5. **Größe und Integration**
-    - Sehr kompakt und leicht in Geräte integrierbar.
-    - I²C-Schnittstelle zur einfachen Kommunikation mit Mikrocontrollern wie dem ESP32.
+    - Sehr **kompakt** und **leicht** in Geräte integrierbar.
+    - **I²C**-Schnittstelle zur einfachen Kommunikation mit Mikrocontrollern wie dem **ESP32**.
 
 6. **Stromverbrauch**
-    - Optimiert für batteriebetriebene Geräte mit geringem Stromverbrauch.
-    - Stromsparmodi verfügbar, wenn der Sensor nicht aktiv ist.
+    - **Optimiert** für batteriebetriebene Geräte mit geringem Stromverbrauch.
+    - **Stromsparmodi** verfügbar, wenn der Sensor **nicht aktiv** ist.
 
 ### Typische Anwendungen
 1. **Gestenerkennung**
-    - Kann verwendet werden, um Bewegungen oder Gesten zu erkennen, indem die Entfernung zu einem Objekt dynamisch gemessen wird.
+    - Kann verwendet werden, um **Bewegungen** oder **Gesten** zu erkennen, indem die Entfernung zu einem Objekt **dynamisch** gemessen wird.
 
 2. **Entfernungs- und Objekterkennung**
-    - Ideal für Türsysteme, bei denen erkannt wird, ob jemand hindurchgeht, wie in deinem Projekt.
-    - Kann zur Hinderniserkennung in Robotern oder Drohnen eingesetzt werden.
+    - Ideal für **Türsysteme**, bei denen erkannt wird, ob jemand hindurchgeht, wie in meinem Projekt.
+    - Kann zur **Hinderniserkennung** in Robotern oder Drohnen eingesetzt werden.
 
 3. **Raumüberwachung**
-    - Nützlich in Smart-Home-Anwendungen zur Erkennung von Personen oder Objekten in einem Raum.
+    - Nützlich in **Smart-Home-Anwendungen** zur Erkennung von Personen oder Objekten in einem Raum.
 
 4. **Industrielle Automatisierung**
-    - In Produktionslinien oder Logistiksystemen, um Objekte zu zählen oder deren Position zu bestimmen.
+    - In **Produktionslinien** oder **Logistiksystemen**, um Objekte zu zählen oder deren Position zu bestimmen.
 
 ### Technische Details
-- **Lichtquelle**: Integrierte Laserdiode (VCSEL).
-- **Schnittstelle**: I²C, für einfache Integration in Mikrocontroller-Projekte.
-- **Spannungsversorgung**: Typischerweise 2,8 V bis 3,3 V.
-- **Betriebstemperatur**: -20 °C bis 85 °C.
-- **Abmessungen**: Sehr kompakt, was ihn für portable Geräte geeignet macht.
+- **Lichtquelle**: **Integrierte Laserdiode** (VCSEL).
+- **Schnittstelle**: **I²C**, für einfache Integration in Mikrocontroller-Projekte.
+- **Spannungsversorgung**: Typischerweise **2,8 V** bis **3,3 V**.
+- **Betriebstemperatur**: **-20 °C** bis **85 °C**.
+- **Abmessungen**: **Sehr kompakt**, was ihn für portable Geräte geeignet macht.
 
 ### Vorteile
-- Hohe Präzision und schnelle Messzeiten.
-- Unterstützt Multi-Zonen-Messungen.
-- Energieeffizient und einfach in batteriebetriebene Systeme zu integrieren.
-- Robuste Leistung auch in Umgebungen mit schwachem Licht.
+- Hohe **Präzision** und schnelle **Messzeiten**.
+- Unterstützt **Multi-Zonen-Messungen**.
+- **Energieeffizient** und einfach in **batteriebetriebene Systeme** zu integrieren.
+- **Robuste Leistung** auch in Umgebungen mit schwachem Licht.
 
 ### Nachteile
-- Die maximale Reichweite von 4 Metern könnte für manche Anwendungen begrenzend sein.
-- Reflektierende oder transparente Oberflächen können die Messgenauigkeit beeinträchtigen.
-- Erfordert möglicherweise genaue Kalibrierung für optimale Ergebnisse.  
+- Die **maximale Reichweite** von 4 Metern könnte für manche Anwendungen **begrenzend** sein.
+- **Reflektierende** oder **transparente** Oberflächen können die Messgenauigkeit beeinträchtigen.
+- Erfordert möglicherweise **genaue Kalibrierung** für optimale Ergebnisse.  
+
+### Fazit
+Der **TMF8820** ist ein präziser** TOF-Sensor** mit bis zu **4 Metern Reichweite** und **Multi-Zonen-Messungen**, ideal für **Gesten- und Objekterkennung**. Dank **I²C** und geringem **Stromverbrauch** eignet er sich gut für **batteriebetriebene Geräte**. Einschränkungen sind die **maximale Reichweite** und die **Messgenauigkeit bei reflektierenden Oberflächen**. Insgesamt eine **effiziente Lösung** für präzise Messungen.
 
 ## ESP32
 Das **ESP32-Audio-Kit** ist eine speziell für Audioanwendungen entwickelte Entwicklungsplattform, die auf dem leistungsstarken **ESP32-Mikrocontroller** basiert. Mit der Kombination aus **Wi-Fi**, **Bluetooth** und **Audioverarbeitung** bietet es eine vielseitige Lösung für Projekte wie **Audio-Streaming**, **Sprachsteuerung** und **interaktive Audiogeräte**. Hier sind die wichtigsten Merkmale und technischen Details des ESP32-Audio-Kits:  
