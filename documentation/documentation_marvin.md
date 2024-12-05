@@ -41,9 +41,9 @@ Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
     - *Ich baue eine kleine Externe schaltung mit eienme Schaltregler*
 
 ### Theorie  
-Das Ziel meines Projektes ist es, ein interaktives System zu entwickeln, bei dem eine Audiodatei abgespielt wird, sobald eine Person von dêinem TOF Sensor erkannt wird, die durch die Tür geht. Um dies zu  realisieren, verwende ich ein ESP32-Audio-Kit, ein Boar, das sowohl den Mikrocontroller als auch den Audioplayer integriert. Später mehr dazu. Dieses Board wertet den Bewegungssensor aus und spielt dann die Audiodatei ab die aufs Programm geladen wurde. Die Audio werde ich mit einem Aufnahmegeräät selbst aufnehmen und andere im Betreib fragen ob sie Seufzen können um die ikonische *"moaning Door"* von Hichhickers Guide authentisch wie möglich nach stellen zu können. 
-   
-Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. Da jedoch sowohl der Bewegungssensor als auch der Mikrocontroller nur mit einer Spannung von 3.3 Volt arbeiten können, setzte ich einen Schalregler ein, der die Spannung von 16 Volt auf das benötigte Niveau reduziert. Der Schaltungsregler wurde gewählt, da er effizienter arbeitet und weniger Energie verlust erzeugt als ein Linearer Spanngsregler, eas insbesomdere bei batteriebetriebenen Anwendungen von Vorteil ist.  
+Das Ziel meines Projekts ist es, ein interaktives System zu entwickeln, bei dem eine Audiodatei abgespielt wird, sobald eine Person von einem TOF-Sensor erkannt wird, die durch die Tür geht. Um dies zu realisieren, verwende ich ein ESP32-Audio-Kit, ein Board, das sowohl den Mikrocontroller als auch den Audioplayer integriert. Später mehr dazu. Dieses Board wertet den Bewegungssensor aus und spielt dann die Audiodatei ab, die auf das Programm geladen wurde. Die Audioaufnahme werde ich mit einem Aufnahmegerät selbst erstellen und andere im Betrieb bitten, ein Seufzen beizutragen, um die ikonische *"Moaning Door"* aus Hitchhiker's Guide so authentisch wie möglich nachstellen zu können.  
+  
+Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. Da jedoch sowohl der Bewegungssensor als auch der Mikrocontroller nur mit einer Spannung von 3,3 Volt arbeiten können, setze ich einen Schaltregler ein, der die Spannung von 16 Volt auf das benötigte Niveau reduziert. Der Schaltregler wurde gewählt, da er effizienter arbeitet und weniger Energieverlust erzeugt als ein linearer Spannungsregler, was insbesondere bei batteriebetriebenen Anwendungen von Vorteil ist.
 
 ## Berechnungen
 
