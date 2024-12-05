@@ -9,7 +9,7 @@
 
 void printLine()
 {
-  Serial.println();
+    Serial.println();
 }
 
 template <typename T, typename... Types>
@@ -39,11 +39,16 @@ void printLine(T first, Types... other)
 #define GPIO_PA_EN    21
 
 //Delay in Millisekunden
-#define EINS  1000
-#define ZWEI  2000
+#define SENSOR_UPDATE_TIME  10
+#define BUTTON_UPDATE_TIME  100
 #define FUENF 5000
 
 int volume = 80;                            // 0...100
+
+unsigned long SensorDelay = 0;
+unsigned long ButtonDelay = 0;
+
+bool started = false;
 
 SparkFun_TMF882X  myTMF882X;
 ES8388 es;
@@ -143,11 +148,11 @@ void setup() {
 //   printDirectory("/", 1);
 
   printLine("Play File");
-//   audio.connecttoFS(SD, "info_computersagtnein.mp3");
+  audio.connecttoFS(SD, "info_computersagtnein.mp3");
   // audio.connecttoFS(SD, "music_bennyhill.mp3");
   char filename[filelist[1].len+1];
   filelist[1].name.toCharArray(filename, sizeof(filename));
-  audio.connecttoFS(SD, filename);
+//   audio.connecttoFS(SD, filename);
   //music_bennyhill.mp3
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -197,39 +202,78 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   audio.loop();
+
+  if(SensorDelay <= millis())
+  {
+    // Serial.println("Updated");
+    SensorDelay = millis() + SENSOR_UPDATE_TIME;
+
+    if(myTMF882X.startMeasuring(myResults, 50))
+    {
+      // Serial.print(".");
+
+      for (int i = 0; i < myResults.num_results; ++i)
+      {
+        if(myResults.results[i].distance_mm < 1000)
+        {
+          // Serial.println("Found you");
+          if(started == false)
+          {
+            started = true;
+            audio.connecttoFS(SD, "info_computersagtnein.mp3");
+          }
+          break;
+        }
+      }
+    }
+  }
+
+  
 }
 
 // optional
 void audio_info(const char *info){
-    Serial.print("info        "); Serial.println(info);
+    Serial.print("info        "); 
+    Serial.println(info);
 }
 void audio_id3data(const char *info){  //id3 metadata
-    Serial.print("id3data     ");Serial.println(info);
+    Serial.print("id3data     ");
+    Serial.println(info);
 }
 void audio_eof_mp3(const char *info){  //end of file
-    Serial.print("eof_mp3     ");Serial.println(info);
+    Serial.print("eof_mp3     ");
+    Serial.println(info);
+    started = false;
 }
 void audio_showstation(const char *info){
-    Serial.print("station     ");Serial.println(info);
+    Serial.print("station     ");
+    Serial.println(info);
 }
 void audio_showstreaminfo(const char *info){
-    Serial.print("streaminfo  ");Serial.println(info);
+    Serial.print("streaminfo  ");
+    Serial.println(info);
 }
 void audio_showstreamtitle(const char *info){
-    Serial.print("streamtitle ");Serial.println(info);
+    Serial.print("streamtitle ");
+    Serial.println(info);
 }
 void audio_bitrate(const char *info){
-    Serial.print("bitrate     ");Serial.println(info);
+    Serial.print("bitrate     ");
+    Serial.println(info);
 }
 void audio_commercial(const char *info){  //duration in sec
-    Serial.print("commercial  ");Serial.println(info);
+    Serial.print("commercial  ");
+    Serial.println(info);
 }
 void audio_icyurl(const char *info){  //homepage
-    Serial.print("icyurl      ");Serial.println(info);
+    Serial.print("icyurl      ");
+    Serial.println(info);
 }
 void audio_lasthost(const char *info){  //stream URL played
-    Serial.print("lasthost    ");Serial.println(info);
+    Serial.print("lasthost    ");
+    Serial.println(info);
 }
 void audio_eof_speech(const char *info){
-    Serial.print("eof_speech  ");Serial.println(info);
+    Serial.print("eof_speech  ");
+    Serial.println(info);
 }
