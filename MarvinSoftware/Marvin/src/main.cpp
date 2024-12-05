@@ -48,6 +48,7 @@ int volume = 80;                            // 0...100
 SparkFun_TMF882X  myTMF882X;
 ES8388 es;
 Audio audio;
+TwoWire I2CSensor = TwoWire(1);
 
 typedef enum {
     FT_OTHER,
@@ -58,6 +59,9 @@ typedef struct {
     unsigned int len;
     filetype_t type;
 } filelist_t;
+
+static struct tmf882x_mode_app_config tofConfig = { 0 };
+static struct tmf882x_msg_meas_results myResults;
 
 #define MAX_FILE_AMOUNT 50
 
@@ -99,6 +103,8 @@ void printDirectory(File dir, int numTabs) {
 
 void setup() {
   Serial.begin(115200);
+//----------------------------------------------------------------------------------------------------------------------
+// ESP32  
   Serial.println("\r\nReset");
 
   SPI.begin(SPI_SCK, SPI_MISO, SPI_MOSI);
@@ -143,6 +149,49 @@ void setup() {
   filelist[1].name.toCharArray(filename, sizeof(filename));
   audio.connecttoFS(SD, filename);
   //music_bennyhill.mp3
+
+//----------------------------------------------------------------------------------------------------------------------
+// TMF8820
+  Serial.println("TMF8820 Arduino Template");
+
+  Serial.println("In setup");
+  Serial.println("==============================");
+
+  I2CSensor.begin(18, 23);
+//   Wire.setPins(18, 23);
+
+  if(!myTMF882X.begin(I2CSensor))
+  {
+     Serial.println("Error - The TMF882X failed to initialize - is the board connected?");
+    while(1);
+  }else {
+    Serial.println("TMF882X started.");
+  }
+  bool bConfigSet = false;
+  if (myTMF882X.getTMF882XConfig(tofConfig))
+  {
+    // Change the report period
+    Serial.print("tofconfig.report_period_ms = ");
+    Serial.println(tofConfig.report_period_ms);
+
+    Serial.print("tofconfig.kilo_iterations = ");
+    Serial.println(tofConfig.kilo_iterations);
+
+    Serial.print("tofconfig.power_cfg = ");
+    Serial.println(tofConfig.power_cfg);
+
+    Serial.print("tofconfig.spad_map_id = ");
+    Serial.println(tofConfig.spad_map_id);
+
+    tofConfig.report_period_ms = 50;
+    tofConfig.kilo_iterations = 50;
+
+    bConfigSet = myTMF882X.setTMF882XConfig(tofConfig);
+    Serial.print("Configresult: "); Serial.println(bConfigSet);
+    myTMF882X.setSampleDelay(10);
+  }
+
+   Serial.println("End Setup\n");
 }
 
 void loop() {
