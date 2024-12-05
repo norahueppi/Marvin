@@ -11,7 +11,7 @@
 9. Zeitplan und Anforderungen
 
 ## Einleitung
-Im Rahmen meines Berufsübergreifenden Projekts (BüP) habe ich mich dazu entschieden, eine ikonische *Szene aus Per Anhalter durch die Galaxis* (englisch: *The Hitchhiker's Guide to the Galaxy*) nachzubilden: die stöhnende Tür. Diese Szene gehört zu den unverwechselbaren Momenten, die den Humor und die skurrile Welt von Douglas Adams so einzigartig machen. Mein Ziel ist es, die Mechanik und den charakteristischen Sound der stöhnenden Tür nachzuempfinden und damit einen kleinen, aber unvergesslichen Aspekt dieses Kultklassikers zum Leben zu erwecken.
+Im Rahmen meines Berufsübergreifenden Projekts (BüP) habe ich mich dazu entschieden, eine ikonische Szene aus Per Anhalter durch die Galaxis (englisch: The Hitchhiker's Guide to the Galaxy) nachzubilden: die stöhnende Tür. Diese Szene gehört zu den unverwechselbaren Momenten, die den Humor und die skurrile Welt von Douglas Adams so einzigartig machen. Mein Ziel ist es, die Mechanik und den charakteristischen Sound der stöhnenden Tür nachzuempfinden und damit einen kleinen, aber unvergesslichen Aspekt dieses Kultklassikers zum Leben zu erwecken.
 
 Per Anhalter durch die Galaxis ist nicht nur ein Meilenstein der Science-Fiction-Literatur, sondern auch eine Satire auf Technik, Gesellschaft und die Absurditäten des Lebens. Die stöhnende Tür steht dabei sinnbildlich für die übertriebene Automatisierung und die Eigenheiten der Technologie in Adams' Universum: Eine Tür, die jede Bewegung mit einem seufzenden oder stöhnenden Laut kommentiert, eine Funktionalität, die im Alltag vollkommen unnötig wäre, aber in dieser Welt als selbstverständlich gilt. Genau diesen skurrilen Charme und die technische Absurdität möchte ich mit meinem Projekt einfangen und nachbilden.
 
@@ -86,4 +86,20 @@ Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. 
 ## Zeitplan und Anforderungen
 [Zeitplan und Anforderungen](Marvin_AudioAnlage_Anforderungen_NoraHueppi_20240917.xlsx)  
 
-## 
+## Schwierigkeiten im Code
+Der ESp32 hat 2 I2C anschlüsse und ich musste für dies eine lösung im Programm finden.
+Das Problem war das ich den gleichen I2C treiber 2 mal inizialisieruen wollte, ich musste den zweiten I2C treiber noch initialisieren.
+Ich schaute im Internet nach lösungen und dies war meine Lösung für mein Problem:
+
+`TwoWire I2CSensor = TwoWire(1);`
+`void setup(){`
+    `I2CSensor.begin(18, 23);`
+    `if(!myTMF882X.begin(I2CSensor))`
+  `{`
+    `Serial.println("Error - The TMF882X failed to initialize - is the board connected?");`
+    `while(1);`
+  `}else {`
+    `Serial.println("TMF882X started.");`
+  `}`
+`}`
+
