@@ -89,6 +89,11 @@ Das **ESP32-Audio-Kit** ist ein Entwicklungsboard, das speziell für Audioanwend
     - Unterstützt drahtlose Audiostreams, wie z. B. Bluetooth-Audio oder Webradio.
     - Oft mit SD-Karten-Slots ausgestattet, um Audiodateien lokal zu speichern.
 
+#### Einsatzmöglichkeiten
+- Intelligente Lautsprecher: Entwicklung von sprachgesteuerten Geräten.
+- Musikspieler: Erstellung von MP3-Playern oder Webradios.
+- Benachrichtigungssysteme: Wiedergabe von Benachrichtigungstönen in IoT-Systemen.
+- Künstlerische Projekte: Einsatz in Installationen oder kreativen Projekten wie deinem „stöhnende Tür“-Projekt.
 
 ## Testing
 
