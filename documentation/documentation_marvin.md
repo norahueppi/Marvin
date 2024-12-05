@@ -20,9 +20,6 @@ Im Verlauf des Projekts werde ich mir überlgungen zur genauen umsetzung machen,
 Dieses Projekt bietet mir die Möglichkeit meine Fähigkeit in der Elektronik und der Programmierung zu erweitern.  
   
 ## Analyse
-### Theorie  
-Das Prinzip des Projekt ist es das
-  
 ### Überlegungen  
 Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
 - Wie will ich das mit dem Sensor genau angehen? Wir lassen die Tür im Betrieb immer geöffnet, ist es Sinvoll mit dem Sensor das öffnen der Tür zu Messen?
@@ -42,6 +39,10 @@ Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
   
 - Der ESP32-A1S wird mit 3.3V betrieben. Wie mache ich die 16V in 3.3V?
     - *Ich baue eine kleine Externe schaltung mit eienme Schaltregler*
+
+### Theorie  
+Das Ziel meines Projektes ist es, ein interaktives System zu entwickeln, bei dem eine Audiodatei abgespielt wird, sobald eine Person von dêinem TOF Sensor erkannt wird, die durch die Tür geht. Um dies zu  realisieren, verwende ich ein ESP32-Audio-Kit, ein Boar, das sowohl den Mikrocontroller als auch den Audioplayer integriert. Später mehr dazu. Dieses Board wertet den Bewegungssensor aus und spielt dann die Audiodatei ab die aufs Programm geladen wurde. Die Audio werde ich mit einem Aufnahmegeräät selbst aufnehmen und andere im Betreib fragen ob sie Seufzen können um die ikonische *moaning Door* von Hichhickers Guide authentisch wie möglich nach stellen zu können.  
+Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. Da jedoch sowohl der Bewegungssensor als auch der Mikrocontroller nur mit einer Spannung von 3.3 Volt arbeiten können, setzte ich einen Schalregler ein, der die Spannung von 16 Volt auf das benötigte Niveau reduziert. Der Schaltungsregler wurde gewählt, da er effizienter arbeitet und weniger Energie verlust erzeugt als ein Linearer Spanngsregler, eas insbesomdere bei batteriebetriebenen Anwendungen von Vorteil ist.  
 
 ## Berechnungen
 
