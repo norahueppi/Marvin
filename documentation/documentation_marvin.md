@@ -82,3 +82,4 @@ Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. 
 ## Anhang
 
 ## Zeitplan und Anforderungen
+[Zeitplan und Anforderungen](Marvin_Audioanlage_Anforderungen_NoraHueppi_20240917)
