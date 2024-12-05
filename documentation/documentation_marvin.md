@@ -83,42 +83,37 @@ Der **TMF8820** ist ein **Time-of-Flight (TOF)**-Sensor, der von AMS entwickelt 
     - Optimiert für batteriebetriebene Geräte mit geringem Stromverbrauch.
     - Stromsparmodi verfügbar, wenn der Sensor nicht aktiv ist.
 
-Typische Anwendungen
+### Typische Anwendungen
+1. **Gestenerkennung**
+    - Kann verwendet werden, um Bewegungen oder Gesten zu erkennen, indem die Entfernung zu einem Objekt dynamisch gemessen wird.
 
-    Gestenerkennung
-        Kann verwendet werden, um Bewegungen oder Gesten zu erkennen, indem die Entfernung zu einem Objekt dynamisch gemessen wird.
+2. **Entfernungs- und Objekterkennung**
+    - Ideal für Türsysteme, bei denen erkannt wird, ob jemand hindurchgeht, wie in deinem Projekt.
+    - Kann zur Hinderniserkennung in Robotern oder Drohnen eingesetzt werden.
 
-    Entfernungs- und Objekterkennung
-        Ideal für Türsysteme, bei denen erkannt wird, ob jemand hindurchgeht, wie in deinem Projekt.
-        Kann zur Hinderniserkennung in Robotern oder Drohnen eingesetzt werden.
+3. **Raumüberwachung**
+    - Nützlich in Smart-Home-Anwendungen zur Erkennung von Personen oder Objekten in einem Raum.
 
-    Raumüberwachung
-        Nützlich in Smart-Home-Anwendungen zur Erkennung von Personen oder Objekten in einem Raum.
+4. **Industrielle Automatisierung**
+    - In Produktionslinien oder Logistiksystemen, um Objekte zu zählen oder deren Position zu bestimmen.
 
-    Industrielle Automatisierung
-        In Produktionslinien oder Logistiksystemen, um Objekte zu zählen oder deren Position zu bestimmen.
+### Technische Details
+- **Lichtquelle**: Integrierte Laserdiode (VCSEL).
+- **Schnittstelle**: I²C, für einfache Integration in Mikrocontroller-Projekte.
+- **Spannungsversorgung**: Typischerweise 2,8 V bis 3,3 V.
+- **Betriebstemperatur**: -20 °C bis 85 °C.
+- **Abmessungen**: Sehr kompakt, was ihn für portable Geräte geeignet macht.
 
-Technische Details
+### Vorteile
+- Hohe Präzision und schnelle Messzeiten.
+- Unterstützt Multi-Zonen-Messungen.
+- Energieeffizient und einfach in batteriebetriebene Systeme zu integrieren.
+- Robuste Leistung auch in Umgebungen mit schwachem Licht.
 
-    Lichtquelle: Integrierte Laserdiode (VCSEL).
-    Schnittstelle: I²C, für einfache Integration in Mikrocontroller-Projekte.
-    Spannungsversorgung: Typischerweise 2,8 V bis 3,3 V.
-    Betriebstemperatur: -20 °C bis 85 °C.
-    Abmessungen: Sehr kompakt, was ihn für portable Geräte geeignet macht.
-
-Vor- und Nachteile
-Vorteile
-
-    Hohe Präzision und schnelle Messzeiten.
-    Unterstützt Multi-Zonen-Messungen.
-    Energieeffizient und einfach in batteriebetriebene Systeme zu integrieren.
-    Robuste Leistung auch in Umgebungen mit schwachem Licht.
-
-Nachteile
-
-    Die maximale Reichweite von 4 Metern könnte für manche Anwendungen begrenzend sein.
-    Reflektierende oder transparente Oberflächen können die Messgenauigkeit beeinträchtigen.
-    Erfordert möglicherweise genaue Kalibrierung für optimale Ergebnisse.  
+### Nachteile
+- Die maximale Reichweite von 4 Metern könnte für manche Anwendungen begrenzend sein.
+- Reflektierende oder transparente Oberflächen können die Messgenauigkeit beeinträchtigen.
+- Erfordert möglicherweise genaue Kalibrierung für optimale Ergebnisse.  
 
 ## ESP32
 Das **ESP32-Audio-Kit** ist eine speziell für Audioanwendungen entwickelte Entwicklungsplattform, die auf dem leistungsstarken **ESP32-Mikrocontroller** basiert. Mit der Kombination aus **Wi-Fi**, **Bluetooth** und **Audioverarbeitung** bietet es eine vielseitige Lösung für Projekte wie **Audio-Streaming**, **Sprachsteuerung** und **interaktive Audiogeräte**. Hier sind die wichtigsten Merkmale und technischen Details des ESP32-Audio-Kits:  
