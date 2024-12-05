@@ -26,7 +26,7 @@ Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
     - *Der Sensor wird oberhalb der Tür montiert. Da wir die Tür durchgehend geöffnet haben ist es nicht Sinvoll das öffnen der Tür zu messen, stattdessen misst der Sensor die einzelnen Personen die durch die Tür duch gehen.*
   
 - Was für ein Sensor verwnde ich?
-    - *Ich werde einen TOF (Time-Of-Flight) Sensor verwenden. Genauer einen TMF8820.*
+    - *****Ich werde einen TOF (Time-Of-Flight) Sensor verwenden. Genauer einen TMF8820.***
   
 - Welcher Microcontroller verwende ich?
     - *Ich verwende ein ESP32-Audio-Kit verwenden mit einem ESP32-A1S Microcontroller.*
