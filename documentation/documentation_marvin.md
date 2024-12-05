@@ -2,10 +2,13 @@
 ## Inhaltsverzeichnich
 1. Einleitung
 2. Analyse
-3. Bauelemente
-4. Anhang
-5. Arbeitsjournal
-6. Zeitplan und Anforderungen
+3. Berechnungen
+4. Realisierung
+5. Bauelemente
+6. Testing
+7. Arbeitsjournal
+8. Anhang
+9. Zeitplan und Anforderungen
 
 ## Einleitung
 Für mein BüP Projekt habe ich mich dazu entschieden, eine ikonische Szene aus *The hitchhicker's guide to the galaxy* nach zu bilden: die stöhnende Tür. Dieses Projekt kombiniert Punkte aus Technik, Design und Unterhaltung, um Douglas Adams Klassikerauf kreativeund funktionale weise nach zu stellen.  
@@ -39,13 +42,21 @@ Für die Realsierung des Projekts musste ich mir ein paar überlegen machen:
 - Der ESP32-A1S wird mit 3.3V betrieben. Wie mache ich die 16V in 3.3V?
     - *Ich baue eine kleine Externe schaltung mit eienme Schaltregler*
 
+## Berechnungen
+
+## Realisierung
+### Funktionen
+### Aufbau
+
 ## Bauelemente
 ### Schaltregler
 ### TOF
 ### ESP32
 
-## Anhang
+## Testing
 
 ## Arbeitsjournal
+
+## Anhang
 
 ## Zeitplan und Anforderungen
