@@ -91,15 +91,14 @@ Der ESp32 hat 2 I2C anschlüsse und ich musste für dies eine lösung im Program
 Das Problem war das ich den gleichen I2C treiber 2 mal inizialisieruen wollte, ich musste den zweiten I2C treiber noch initialisieren.
 Ich schaute im Internet nach lösungen und dies war meine Lösung für mein Problem:
 
-TwoWire I2CSensor = TwoWire(1);
-void setup(){
-    I2CSensor.begin(18, 23);
-    if(!myTMF882X.begin(I2CSensor))
-  {
-    Serial.println("Error - The TMF882X failed to initialize - is the board connected?");
-    while(1);
-  }else {
-    Serial.println("TMF882X started.");
-  }
-}
-
+TwoWire I2CSensor = TwoWire(1);  
+void setup(){  
+    I2CSensor.begin(18, 23);  
+    if(!myTMF882X.begin(I2CSensor))  
+  {  
+    Serial.println("Error - The TMF882X failed to initialize - is the board connected?");  
+    while(1);  
+  }else {  
+    Serial.println("TMF882X started.");  
+  }  
+}  
