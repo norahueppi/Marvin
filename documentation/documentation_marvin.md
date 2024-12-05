@@ -95,10 +95,10 @@ TwoWire I2CSensor = TwoWire(1);
 void setup(){  
     I2CSensor.begin(18, 23);  
     if(!myTMF882X.begin(I2CSensor))  
-  {  
-    Serial.println("Error - The TMF882X failed to initialize - is the board connected?");  
-    while(1);  
-  }else {  
-    Serial.println("TMF882X started.");  
-  }  
+    {  
+        Serial.println("Error - The TMF882X failed to initialize - is the board connected?");  
+        while(1);  
+    }else {  
+        Serial.println("TMF882X started.");  
+    }  
 }  
