@@ -57,6 +57,38 @@ Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. 
 ### Schaltregler
 ### TOF
 ### ESP32
+Das **ESP32-Audio-Kit** ist ein Entwicklungsboard, das speziell für Audioanwendungen entwickelt wurde und auf dem beliebten ESP32-Mikrocontroller basiert. Es bietet eine vielseitige Plattform für Projekte, die Audiowiedergabe, Sprachsteuerung oder andere Anwendungen im Bereich der Audiotechnologie erfordern. Hier sind einige der wichtigsten Merkmale:  
+#### Wichtige Eigenschaften
+1. ESP32 Microcontroler
+    - Der ESP32 ist ein leistungsstarker Mikrocontroller mit Dual-Core-CPU, Wi-Fi und Bluetooth-Funktionalität.
+    - Ideal für IoT-Anwendungen, bei denen drahtlose Konnektivität benötigt wird.
+
+2. Audio-Codecs und DACs
+    - Das Board enthält integrierte Audio-Digital-Analog-Wandler (DACs) und möglicherweise einen Audio-Codec (z. B. ES8388).
+    - Diese Bauteile ermöglichen hochwertige Audiowiedergabe und -verarbeitung.
+
+3. Audiowiedergabe und Aufnahme
+    - Unterstützt verschiedene Audioformate wie MP3, WAV und AAC.
+    - Bietet Anschlussmöglichkeiten für Mikrofone zur Audioaufnahme (bei manchen Versionen auch MEMS-Mikrofone integriert).
+
+4. Anschlüsse und Schnittstellen
+    - Lautsprecheranschlüsse (oft als Klinkenbuchse oder Pins ausgeführt).
+    - Eingänge für Mikrofone.
+    - I2S-Schnittstelle für Audioübertragung.
+    - GPIOs für zusätzliche Funktionen wie Sensoren oder LEDs.
+
+5. Programmierbarkeit
+    - Programmierbar mit Arduino IDE, ESP-IDF oder PlatformIO.
+    - Unterstützt Libraries wie ESP8266Audio oder andere für Audioprojekte.
+
+6. Stromversorgung
+    - In der Regel über USB oder eine externe Spannungsquelle versorgt.
+    - Kann mit einer Spannungsregelung für externe Stromquellen kombiniert werden.
+
+7. Zusätzliche Funktionen
+    - Unterstützt drahtlose Audiostreams, wie z. B. Bluetooth-Audio oder Webradio.
+    - Oft mit SD-Karten-Slots ausgestattet, um Audiodateien lokal zu speichern.
+
 
 ## Testing
 
