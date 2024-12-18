@@ -59,30 +59,15 @@ Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. 
 Der **TMF8820** ist ein **Time-of-Flight (TOF)**-Sensor, der von AMS entwickelt wurde. Er misst Entfernungen präzise, indem er die Zeit berechnet, die Licht benötigt, um von einem Objekt reflektiert zu werden und zum Sensor zurückzukehren. Der TMF8820 eignet sich hervorragend für Anwendungen, bei denen eine genaue Distanzmessung oder Objekterkennung erforderlich ist. Hier sind die wichtigsten Informationen:  
 
 ### Wesentliche Eigenschaften des TMF8820
-1. **Arbeitsprinzip: Time-of-Flight (TOF)**
-    - Der Sensor emittiert Licht über eine integrierte **Laserdiode** (VCSEL - Vertical-Cavity Surface-Emitting Laser).
-    - Er misst die **Flugzeit** des Lichts, das von einem Objekt reflektiert wird, um präzise Entfernungen zu berechnen.
+Der TMF8820 zeichnet sich durch eine Vielzahl wesentlicher Eigenschaften aus, die ihn zu einem vielseitigen und leistungsstarken Time-of-Flight (TOF)-Sensor machen· Sein Arbeitsprinzip basiert auf der TOF-Technologie, bei der Licht über eine integrierte Laserdiode (VCSEL - Vertical-Cavity Surface-Emitting Laser) ausgesendet wird· Der Sensor misst die Flugzeit des Lichts, das von einem Objekt reflektiert wird, und berechnet daraus präzise Entfernungen· 
 
-2. **Messbereich**
-    - Der **TMF8820** bietet eine maximale Reichweite von bis zu **4 Metern**, abhängig von der Umgebung und den Reflexionseigenschaften des Objekts.
-    - Hohe Genauigkeit bei **Kurz-** und **Mittelstrecken**.
+Mit einem Messbereich von bis zu 4 Metern, abhängig von den Reflexionseigenschaften der Objekte und den Umgebungsbedingungen, ist der TMF8820 sowohl für Kurz- als auch Mittelstreckenmessungen hervorragend geeignet· Dabei gewährleistet er eine hohe Genauigkeit und ermöglicht millimetergenaue Messungen· Durch seine schnellen Messzyklen ist der Sensor ideal für Echtzeitanwendungen, die Präzision und Geschwindigkeit erfordern·
 
-3. **Auflösung und Präzision**
-    - **Millimetergenauigkeit**, ideal für Anwendungen, die eine hohe Präzision erfordern.
-    - Sehr schnelle **Messzyklen**, was ihn für Echtzeitanwendungen geeignet macht.
+Eine herausragende Eigenschaft des TMF8820 ist seine Mehrzonen-Technologie· Der Sensor unterstützt Multi-Zonen-Messungen in einem 3x3-Muster, wodurch er nicht nur Entfernungen messen, sondern auch die Richtung von Objekten im Sichtfeld erkennen kann· Diese Fähigkeit ist besonders nützlich für Anwendungen, bei denen mehrere Zielobjekte gleichzeitig erfasst werden müssen, wie etwa bei der Gestenerkennung oder der Überwachung komplexer Szenarien·
 
-4. **Mehrzonen-Technologie**
-    - Unterstützt **3x3 Multi-Zonen-Messungen**, wodurch der Sensor nicht nur die Entfernung misst, sondern auch die Richtung von Objekten erkennen kann.
-    - Dies ist nützlich für Anwendungen mit mehreren Zielobjekten im Sichtfeld.
+Der TMF8820 überzeugt auch durch seine kompakte Bauform, die eine einfache Integration in verschiedenste Geräte ermöglicht· Dank der I²C-Schnittstelle ist die Kommunikation mit Mikrocontrollern wie dem ESP32 unkompliziert, was die Einbindung in Projekte erheblich erleichtert· Zudem wurde der Sensor für einen niedrigen Stromverbrauch optimiert, was ihn besonders attraktiv für batteriebetriebene Geräte macht· Verschiedene Stromsparmodi sorgen dafür, dass der Energieverbrauch minimiert wird, wenn der Sensor nicht aktiv genutzt wird· 
 
-5. **Größe und Integration**
-    - Sehr **kompakt** und **leicht** in Geräte integrierbar.
-    - **I²C**-Schnittstelle zur einfachen Kommunikation mit Mikrocontrollern wie dem **ESP32**.
-
-6. **Stromverbrauch**
-    - **Optimiert** für batteriebetriebene Geräte mit geringem Stromverbrauch.
-    - **Stromsparmodi** verfügbar, wenn der Sensor **nicht aktiv** ist.
-
+Mit diesen Eigenschaften bietet der TMF8820 eine ideale Kombination aus Präzision, Vielseitigkeit und Energieeffizienz, die ihn für eine Vielzahl moderner Anwendungen qualifiziert·
 ### Typische Anwendungen
 1. **Gestenerkennung**
     - Kann verwendet werden, um **Bewegungen** oder **Gesten** zu erkennen, indem die Entfernung zu einem Objekt **dynamisch** gemessen wird.
