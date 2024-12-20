@@ -280,6 +280,11 @@ void loop() {
               if(started == false)
               {
                 started = true;
+
+                // int n = (int)random(0,20);
+                //char filename[filelist[n].len+1];
+                //filelist[n].name.toCharArray(filename, sizeof(filename));
+
                 audio.connecttoFS(SD, "info_computersagtnein.mp3");
               }
               break;
