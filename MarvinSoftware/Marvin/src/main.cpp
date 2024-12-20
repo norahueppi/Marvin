@@ -43,7 +43,27 @@ void printLine(T first, Types... other)
 #define BUTTON_UPDATE_TIME  100
 #define FUENF 5000
 
+//Buttons einlesen
+#define BTN_LOUDER  29
+#define BTN_QUIETER 30
+#define BTN_MODI0   31
+#define BTN_MODI1   32
+
+//Cases for Modi State
+#define MODI0 0
+#define MODI1 1
+
 int volume = 80;                            // 0...100
+
+int Volume = 0;
+
+int BtnModi0Last = 0;
+int BtnModi1Last = 0;
+int BtnLouderLast = 0;
+int BtnQuieterLast = 0;
+// int Modi = 0;
+
+int ModiState = MODI0;
 
 unsigned long SensorDelay = 0;
 unsigned long ButtonDelay = 0;
@@ -109,6 +129,16 @@ void printDirectory(File dir, int numTabs) {
 void setup() {
   Serial.begin(115200);
 //----------------------------------------------------------------------------------------------------------------------
+//Button einlesen
+  Serial.println("Starting reading Buttons");
+
+  pinMode(BTN_LOUDER, INPUT_PULLUP);
+  pinMode(BTN_QUIETER, INPUT_PULLUP);
+  pinMode(BTN_MODI0, INPUT_PULLUP);
+  pinMode(BTN_MODI1, INPUT_PULLUP);
+
+  Serial.println("Finisched reading Buttons");
+//----------------------------------------------------------------------------------------------------------------------
 // ESP32  
   Serial.println("\r\nReset");
 
@@ -143,13 +173,13 @@ void setup() {
   digitalWrite(GPIO_PA_EN, HIGH);
 
   audio.setPinout(I2S_BCLK, I2S_LRCK, I2S_SDOUT, I2S_MCLK);
-  audio.setVolume(21); // 0...21
+  audio.setVolume(Volume); // 0...21
 
 //   printDirectory("/", 1);
 
   printLine("Play File");
-  audio.connecttoFS(SD, "info_computersagtnein.mp3");
-  // audio.connecttoFS(SD, "music_bennyhill.mp3");
+  // audio.connecttoFS(SD, "info_computersagtnein.mp3");
+  audio.connecttoFS(SD, "music_bennyhill.mp3");
   char filename[filelist[1].len+1];
   filelist[1].name.toCharArray(filename, sizeof(filename));
 //   audio.connecttoFS(SD, filename);
@@ -203,32 +233,124 @@ void loop() {
   // put your main code here, to run repeatedly:
   audio.loop();
 
-  if(SensorDelay <= millis())
+  switch (ModiState)
   {
-    // Serial.println("Updated");
-    SensorDelay = millis() + SENSOR_UPDATE_TIME;
-
-    if(myTMF882X.startMeasuring(myResults, 50))
-    {
-      // Serial.print(".");
-
-      for (int i = 0; i < myResults.num_results; ++i)
+    case MODI0:
+      Serial.println("Modi 0");
+      
+      if((BTN_MODI1 != BtnModi1Last) && (BTN_MODI1 == LOW))
       {
-        if(myResults.results[i].distance_mm < 1000)
+        ModiState = MODI1;
+      }
+
+      if((BTN_LOUDER != BtnLouderLast) && (BTN_LOUDER == LOW))
+      {
+        Volume++;
+
+        if (Volume >= 21)
         {
-          // Serial.println("Found you");
-          if(started == false)
-          {
-            started = true;
-            audio.connecttoFS(SD, "info_computersagtnein.mp3");
-          }
-          break;
+          Volume = 21;
         }
       }
-    }
-  }
 
-  
+      if((BTN_QUIETER != BtnQuieterLast) && (BTN_QUIETER == LOW))
+      {
+        Volume--;
+
+        if(Volume <= 0)
+        {
+          Volume = 0;
+        }
+      }
+
+      if(SensorDelay <= millis())
+      {
+        // Serial.println("Updated");
+        SensorDelay = millis() + SENSOR_UPDATE_TIME;
+
+        if(myTMF882X.startMeasuring(myResults, 50))
+        {
+          // Serial.print(".");
+
+          for (int i = 0; i < myResults.num_results; ++i)
+          {
+            if(myResults.results[i].distance_mm < 1000)
+            {
+              // Serial.println("Found you");
+              if(started == false)
+              {
+                started = true;
+                audio.connecttoFS(SD, "info_computersagtnein.mp3");
+              }
+              break;
+            }
+          }
+        }
+      }
+      
+      BtnModi1Last = BTN_MODI1;
+      BtnLouderLast = BTN_LOUDER;
+      BtnQuieterLast = BTN_QUIETER;
+
+      break;
+
+    case MODI1:
+      Serial.println("Modi 1");
+
+      if((BTN_MODI0 != BtnModi0Last) && (BTN_MODI0 == LOW))
+      {
+        ModiState = MODI0;
+      }
+
+      if((BTN_LOUDER != BtnLouderLast) && (BTN_LOUDER == LOW))
+      {
+        Volume++;
+
+        if(Volume >= 21)
+        {
+          Volume = 21;
+        }
+      }
+
+      if((BTN_QUIETER != BtnQuieterLast) && (BTN_QUIETER == LOW))
+      {
+        Volume--;
+
+        if(Volume <= 0)
+        {
+          Volume = 0;
+        }
+      }
+
+      if(SensorDelay <= millis())
+      {
+        // Serial.println("Updated");
+        SensorDelay = millis() + SENSOR_UPDATE_TIME;
+
+        if(myTMF882X.startMeasuring(myResults, 50))
+        {
+          // Serial.print(".");
+
+          for (int i = 0; i < myResults.num_results; ++i)
+          {
+            if(myResults.results[i].distance_mm < 1000)
+            {
+              // Serial.println("Found you");
+              if(started == false)
+              {
+                started = true;
+                audio.connecttoFS(SD, "music_bennyhill.mp3");
+              }
+              break;
+            }
+          }
+        }
+      }
+
+      BtnModi0Last = MODI0;
+
+      break;
+  }
 }
 
 // optional
