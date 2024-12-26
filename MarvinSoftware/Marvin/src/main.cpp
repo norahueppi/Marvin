@@ -57,6 +57,9 @@ int volume = 80;                            // 0...100
 
 int Volume = 0;
 
+int RandomNumber = 0;
+int Reihenfolge = 0;
+
 int BtnModi0Last = 0;
 int BtnModi1Last = 0;
 int BtnLouderLast = 0;
@@ -227,6 +230,9 @@ void setup() {
   }
 
    Serial.println("End Setup\n");
+//----------------------------------------------------------------------------------------------------------------------
+//um eine Random Nummer zu generieren
+  randomSeed(analogRead(0));
 }
 
 void loop() {
@@ -280,12 +286,14 @@ void loop() {
               if(started == false)
               {
                 started = true;
+                
+                //gibt eine random Nummer zwischen 1 und 12 aus
+                RandomNumber = random(1, 13);
+                char filename[filelist[RandomNumber].len+1];
+                filelist[RandomNumber].name.toCharArray(filename, sizeof(filename));
 
-                // int n = (int)random(0,20);
-                //char filename[filelist[n].len+1];
-                //filelist[n].name.toCharArray(filename, sizeof(filename));
-
-                audio.connecttoFS(SD, "info_computersagtnein.mp3");
+                //Test file
+                //audio.connecttoFS(SD, "info_computersagtnein.mp3");
               }
               break;
             }
@@ -344,7 +352,17 @@ void loop() {
               if(started == false)
               {
                 started = true;
-                audio.connecttoFS(SD, "music_bennyhill.mp3");
+                
+                Reihenfolge++;
+                char filename[filelist[Reihenfolge].len+1];
+                filelist[Reihenfolge].name.toCharArray(filename, sizeof(filename));
+
+                if(Reihenfolge >= 12){
+                  Reihenfolge = 1;
+                }
+
+                //Test file
+                // audio.connecttoFS(SD, "music_bennyhill.mp3");
               }
               break;
             }
