@@ -259,6 +259,8 @@ void loop() {
         }
       }
 
+      //Wenn man den Button Quieter drückt dann kann man manuel den Ton Leiser stellen und wenn die Laustärke
+      //schon auf dem mindesten ist kann es nicht leiser gehen
       if((BTN_QUIETER != BtnQuieterLast) && (BTN_QUIETER == LOW))
       {
         Volume--;
