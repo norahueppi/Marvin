@@ -6,9 +6,10 @@
 4. Realisierung
 5. Bauelemente
 6. Testing
-7. Arbeitsjournal
-8. Anhang
-9. Zeitplan und Anforderungen
+7. Schwierigkeiten im Code
+8. Arbeitsjournal
+9. Anhang
+10. Zeitplan und Anforderungen
 
 # Einleitung
 Im Rahmen meines Berufsübergreifenden Projekts (BüP) habe ich mich dazu entschieden, eine ikonische Szene aus Per Anhalter durch die Galaxis (englisch: The Hitchhiker's Guide to the Galaxy) nachzubilden: die stöhnende Tür. Diese Szene gehört zu den unverwechselbaren Momenten, die den Humor und die skurrile Welt von Douglas Adams so einzigartig machen. Mein Ziel ist es, die Mechanik und den charakteristischen Sound der stöhnenden Tür nachzuempfinden und damit einen kleinen, aber unvergesslichen Aspekt dieses Kultklassikers zum Leben zu erwecken.
@@ -249,6 +250,30 @@ Das **ESP32-Audio-Kit** ist eine leistungsstarke, kostengünstige und vielseitig
 
 # Testing
 
+# Schwierigkeiten im Code
+## Zwei I2C Schnittstellen
+Der ESp32 hat 2 I2C anschlüsse und ich musste für dies eine lösung im Programm finden.
+Das Problem war das ich den gleichen I2C treiber 2 mal inizialisieruen wollte, ich musste den zweiten I2C treiber noch initialisieren.
+Ich schaute im Internet nach lösungen und dies war meine Lösung für mein Problem:
+
+```c
+TwoWire I2CSensor = TwoWire(1);
+void setup()
+{
+    I2CSensor.begin(18, 23);
+    if(!myTMF882X.begin(I2CSensor))
+    }
+        Serial.println("Error - The TMF882X failed to initialize - is the board connected?");
+        while(1);
+    }else
+    {  
+        Serial.println("TMF882X started.");
+    }
+}
+```
+##
+
+
 # Arbeitsjournal
 ## KW 36
 ## KW 37
@@ -278,24 +303,3 @@ Das **ESP32-Audio-Kit** ist eine leistungsstarke, kostengünstige und vielseitig
 
 # Zeitplan und Anforderungen
 [Zeitplan und Anforderungen](Marvin_AudioAnlage_Anforderungen_NoraHueppi_20240917.xlsx)  
-
-## Schwierigkeiten im Code
-Der ESp32 hat 2 I2C anschlüsse und ich musste für dies eine lösung im Programm finden.
-Das Problem war das ich den gleichen I2C treiber 2 mal inizialisieruen wollte, ich musste den zweiten I2C treiber noch initialisieren.
-Ich schaute im Internet nach lösungen und dies war meine Lösung für mein Problem:
-
-```c
-TwoWire I2CSensor = TwoWire(1);
-void setup()
-{
-    I2CSensor.begin(18, 23);
-    if(!myTMF882X.begin(I2CSensor))
-    }
-        Serial.println("Error - The TMF882X failed to initialize - is the board connected?");
-        while(1);
-    }else
-    {  
-        Serial.println("TMF882X started.");
-    }
-}
-```

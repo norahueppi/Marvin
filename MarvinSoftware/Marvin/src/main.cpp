@@ -170,7 +170,6 @@ void setup() {
   es.mute(ES8388::ES_MAIN, false);
   es.SetVolumeSpeaker(80);
 
-
   // Enable amplifier
   pinMode(GPIO_PA_EN, OUTPUT);
   digitalWrite(GPIO_PA_EN, HIGH);
