@@ -355,6 +355,7 @@ Das **ESP32-Audio-Kit** ist eine leistungsstarke, kostengünstige und vielseitig
 # Testing
 ## Funktionale Anforderungen
 |Anforderungen              |Funktioniert |Funktioniert nicht |  
+|---------------------------------|--------------|-------------|
 |Am Input des ESP32 3.3V    | X |   |  
 |Wenn Sensor an eine LED an | X |   |  
 |Sensor soll Audioanlage aktivieren| X|   |  
