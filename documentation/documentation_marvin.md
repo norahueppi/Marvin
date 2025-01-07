@@ -120,7 +120,7 @@ Betriebsdauer = Kapazität / Stromverbrauch
 - Ladestrom: 0.5 A
 
 **Berechnung:**
-adezeit = Kapazität / Ladestrom
+Ladezeit = Kapazität / Ladestrom
 = 1.8 Ah / 0.5 A = ***3.6 h***
 
 # Realisierung
