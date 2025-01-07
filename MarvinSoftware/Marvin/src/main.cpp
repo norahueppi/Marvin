@@ -58,7 +58,9 @@ int volume = 80;                            // 0...100
 int Volume = 0;
 
 int RandomNumber = 0;
+int RandomNumberLast = 0;
 int Reihenfolge = 0;
+int ReihenfolgeLast = 0;
 
 int BtnModi0Last = 0;
 int BtnModi1Last = 0;
@@ -242,12 +244,15 @@ void loop() {
   {
     case MODI0:
       Serial.println("Modi 0");
-      
+
+      //Wenn man den Button Modi1 drückt dann wechselt man zum Modus 1
       if((BTN_MODI1 != BtnModi1Last) && (BTN_MODI1 == LOW))
       {
         ModiState = MODI1;
       }
 
+      //Wenn man den Button Louder drückt dann kann man manuel den Ton lauter stellen und wenn die Laustärke
+      //schon auf dem maximum ist kann es nicht lauter gehen
       if((BTN_LOUDER != BtnLouderLast) && (BTN_LOUDER == LOW))
       {
         Volume++;
@@ -258,7 +263,7 @@ void loop() {
         }
       }
 
-      //Wenn man den Button Quieter drückt dann kann man manuel den Ton Leiser stellen und wenn die Laustärke
+      //Wenn man den Button Quieter drückt dann kann man manuel den Ton leiser stellen und wenn die Laustärke
       //schon auf dem mindesten ist kann es nicht leiser gehen
       if((BTN_QUIETER != BtnQuieterLast) && (BTN_QUIETER == LOW))
       {
@@ -284,14 +289,22 @@ void loop() {
             if(myResults.results[i].distance_mm < 1000)
             {
               // Serial.println("Found you");
+
+              //Wenn started false war dann wurde started auf true gesetzt das es erst wieder in diese schlafe gelangt
+              //wenn ein Audio file abgespiel wurde.
               if(started == false)
               {
                 started = true;
                 
-                //gibt eine random Nummer zwischen 1 und 12 aus
-                RandomNumber = random(1, 13);
+                //gibt eine random Nummer zwischen 0 und 11 aus
+                RandomNumber = random(12);
                 char filename[filelist[RandomNumber].len+1];
                 filelist[RandomNumber].name.toCharArray(filename, sizeof(filename));
+
+                if(RandomNumber != RandomNumberLast)
+                {
+                  started = false;
+                }
 
                 //Test file
                 //audio.connecttoFS(SD, "info_computersagtnein.mp3");
@@ -305,17 +318,21 @@ void loop() {
       BtnModi1Last = BTN_MODI1;
       BtnLouderLast = BTN_LOUDER;
       BtnQuieterLast = BTN_QUIETER;
+      RandomNumberLast = RandomNumber;
 
       break;
 
     case MODI1:
       Serial.println("Modi 1");
 
+      //Wenn man den Button Modi0 drückt dann wechselt man zum Modus 0
       if((BTN_MODI0 != BtnModi0Last) && (BTN_MODI0 == LOW))
       {
         ModiState = MODI0;
       }
 
+      //Wenn man den Button Louder drückt dann kann man manuel den Ton lauter stellen und wenn die Laustärke
+      //schon auf dem maximum ist kann es nicht lauter gehen
       if((BTN_LOUDER != BtnLouderLast) && (BTN_LOUDER == LOW))
       {
         Volume++;
@@ -325,7 +342,9 @@ void loop() {
           Volume = 21;
         }
       }
-
+      
+      //Wenn man den Button Quieter drückt dann kann man manuel den Ton leiser stellen und wenn die Laustärke
+      //schon auf dem mindesten ist kann es nicht leiser gehen
       if((BTN_QUIETER != BtnQuieterLast) && (BTN_QUIETER == LOW))
       {
         Volume--;
@@ -350,6 +369,9 @@ void loop() {
             if(myResults.results[i].distance_mm < 1000)
             {
               // Serial.println("Found you");
+
+              //Wenn started false war dann wurde started auf true gesetzt das es erst wieder in diese schlafe gelangt
+              //wenn ein Audio file abgespiel wurde.
               if(started == false)
               {
                 started = true;
@@ -358,8 +380,13 @@ void loop() {
                 char filename[filelist[Reihenfolge].len+1];
                 filelist[Reihenfolge].name.toCharArray(filename, sizeof(filename));
 
-                if(Reihenfolge >= 12){
-                  Reihenfolge = 1;
+                if(Reihenfolge >= 11){
+                  Reihenfolge = -1;
+                }
+
+                if(Reihenfolge != ReihenfolgeLast)
+                {
+                  started = false;
                 }
 
                 //Test file
@@ -372,6 +399,9 @@ void loop() {
       }
 
       BtnModi0Last = MODI0;
+      BtnLouderLast = BTN_LOUDER;
+      BtnQuieterLast = BTN_QUIETER;
+      Reihenfolge = ReihenfolgeLast;
 
       break;
   }
