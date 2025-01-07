@@ -353,6 +353,37 @@ Das **ESP32-Audio-Kit** ist eine leistungsstarke, kostengünstige und vielseitig
 
 
 # Testing
+## Funktionale Anforderungen
+|Anforderungen                               |Funktioniert |Funktioniert nicht |
+|Am Input des Audio Prints soll ich nicht    |
+mehr als 3.3V haben. ( DC)                   |||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
 
 # Schwierigkeiten im Code
 ## Zwei I2C Schnittstellen
@@ -375,35 +406,35 @@ void setup()
     }
 }
 ```
-##
+## 
 
 
 # Arbeitsjournal
 ## KW 34
-Diese Woche wurde und das neue Fach **BüP (Berufsübergreifende Projekte)** vorgestellt, das und die Grundlagen der **Projektsmanagements** näherbringen soll. Dazu haben wir zwei **PowerPoint-Präsentationen** angesehen: **EN22a_BuP_PM_Einführung_240731** und **EN22a_BuP_Projektideen_240801**. In diesen Präsentationen ging es um die **Grundlagen des Projektmanagements**, die Anforderungen an uns Schüler und erste **Projektideen**.
+Diese Woche wurde uns das neue Fach **BüP (Berufsübergreifende Projekte)** vorgestellt, das uns die Grundlagen der **Projektsmanagements** näherbringen soll. Dazu haben wir zwei **PowerPoint-Präsentationen** angesehen: **EN22a_BuP_PM_Einführung_240731** und **EN22a_BuP_Projektideen_240801**. In diesen Präsentationen ging es um die **Grundlagen des Projektmanagements**, die Anforderungen an uns Schüler und erste **Projektideen**.
 
-Eine **Projekt** hat ein klares Ziel, ist zeitlich begrenzt und wird duch die Parameter **Qualität**, **Zeit**, **Kosten** und **Risiken** bestimmt. Diese Parameter sind entscheidend, um ein Projekt erfolgreich zu pkanen und umzusetzen. Besonders wichtig ist es, die **Zusammenhänge zwischen diesen Faktoren** zu verstehen, da Änderungen an einem Parameter odt Auswirkungen auf die anderen sachen haben.
+Ein **Projekt** hat ein klares Ziel, ist zeitlich begrenzt und wird duch die Parameter **Qualität**, **Zeit**, **Kosten** und **Risiken** bestimmt. Diese Parameter sind entscheidend, um ein Projekt erfolgreich zu planen und umzusetzen. Besonders wichtig ist es, die **Zusammenhänge zwischen diesen Faktoren** zu verstehen, da Änderungen an einem Parameter oft Auswirkungen auf die anderen Sachen haben.
 
 ## KW 35
 Der Schwerpunkt des heutigen Tages lag darauf, zu lernen, wie man **effektive Anforderungen** nach der **SMART-Methode** formuliert: **S**pezifisch, **M**essbar, **A**kzeptiert, **R**ealistisch und **T**ermingebunden. Diese Methode hilft sicherzustellen, das Anforderungen präzise und klar definiert sind, was ein entscheidender Faktor für ein erfolgreiches **Projektmanagement** ist.
 
-Wir haben und dabei mit zwei Arten von Anforderungen beschäftigt:
-- **Funktionale Anforderungen:** Diese beschreiben, was das Produkt leisten soll, also konkreten Funktionen und Aufgaben.
+Wir haben uns dabei mit zwei Arten von Anforderungen beschäftigt:
+- **Funktionale Anforderungen:** Diese beschreiben, was das Produkt leisten soll, also konkrete Funktionen und Aufgaben.
 - **Nicht-funktionale Anforderungen:** Diese definieren Parameter wie **Qualität, Benutzerfreundlichkeit** oder **Leistung**, die sicherstellen, dass das Produkt den gewünschten Standards entspricht.
 
-Ein zentraler  Aspekt, den wir vertieft haben, was der **Qualitätsparameter**. Dieser legt die Standards fest, die das Produkt erfüllen muss, um die Erwartungen der Nutzer zu erfüllen und den vorgesehenen Zweck zu erreichen. Besonders wichtig ist es, Anforderungen mit einem klaren Fokus auf Qualität zu schreiben, da dies sicherstellt, dass das Endergebnis nicht nur funktional, sondern auch effizient und zuverlässig ist.
+Ein zentraler  Aspekt, den wir vertieft haben, war der **Qualitätsparameter**. Dieser legt die Standards fest, die das Produkt erfüllen muss, um die Erwartungen der Nutzer zu erfüllen und den vorgesehenen Zweck zu erreichen. Besonders wichtig ist es, Anforderungen mit einem klaren Fokus auf Qualität zu schreiben, da dies sicherstellt, dass das Endergebnis nicht nur funktional, sondern auch effizient und zuverlässig ist.
 
 Zudem haben wir besprochen, wie die SMART-Methode in der Praxis angewendet werden kann. um Projekte zielgerichtet und struckturiert zu planen. Dies ist eine wichtige Grundlage, um die Zusammenarbeit im Team zu verbessern und Projekte erfolgreich umzusetzen.
 
 
-In dieser woche habe ich mich mit meinem Lehrmeister zusammen gesetzt und wir haben und gemeinsam eine Idee fürs BüP überlegt. Dann kam ihm die Idee das ich eine Szene aus einem Film nachstellen könnte. Da wir vor den Sommerferien noch über das gesprochen hatten, dass ich das eines Tages machen sollte, fanden wir das wäre die perfekte gelegenheit um diese Idee umzusetzen.
+In dieser Woche habe ich mich mit meinem Lehrmeister zusammen gesetzt und wir haben uns gemeinsam eine Idee fürs BüP überlegt. Dann kam ihm die Idee das ich eine Szene aus einem Film nachstellen könnte. Da wir vor den Sommerferien noch eben über dies gesprochen hatten, fanden wir dies die perfekte Gelegenheit um diese Idee umzusetzen.
 
 Die Idee war das ich mit einem Sensor eine Audioanlage ansteuere und düber ein "AEWWW" kommt von verschienden Mitarbeiter in meinem Geschäft.
 
 Diese Szene ist aus dem Film *the Hitchhickers Guide to the galaxy* und dort hat es ein Raumschiff dessen Tür immer stöhnt wenn sie geöffnet wird.
 
 ## KW 36
-In der dritten Wiôche haben wir uns mit dem Thema **Zeitplan** und **Zeitmanagement** beschäftigt. Dabei lag der Fokus auf der Planunf und Festlegung von Termine, die für den reibungslosen Ablauf des Projekts von grosser Bedeutung sind. Zu den festgelegten Terminen gehören unter anderem:
+In der dritten Woche haben wir uns mit dem Thema **Zeitplan** und **Zeitmanagement** beschäftigt. Dabei lag der Fokus auf der Planung und Festlegung von Terminen, die für den reibungslosen Ablauf des Projekts von grosser Bedeutung sind. Zu den festgelegten Terminen gehören unter anderem:
 - Wann werden die Anforderungen unterschrieben und das Projekt offiziell freigegeben?
 - Wann findet die Abnahme statt?
 - Wann sind die ersten Versuchen geplant?
@@ -486,40 +517,50 @@ Der Lehrer hat uns wichtige **Fragenstellungen** mit auf den Weg gegeben, wie z.
 Besonders hervorgehoben wurde die Bedeutung einer klaren Struktur und eines nachvollziehbaren Aufbaus, um sicherzustellen, dass das Dokument übersichtlich bleibt und den Anforderungen entspricht.  Mit dieser Herangehensweise können wir ein hochwertiges und gut durchdachtes Projektdokument erstellen.
 
 
-In dieser woche habe ich intensiv an meinem **Projektdokument** weitergearbeitet. Neben den Haupttiteln habe ich nin auch die passenden **Untertiteln** ergänzt, um die Struktur des Dokuments noch klarer und übersichtlicher zu gestalten. Zusätzlich habe ich mein **Arbeitsjournal** aktualisiert und alle bisherigen Fortschritte sowie offene Punkte festgehalten.
+In dieser Woche habe ich intensiv an meinem **Projektdokument** weitergearbeitet. Neben den Haupttiteln habe ich nun auch die passenden **Untertitel** ergänzt, um die Struktur des Dokuments noch klarer und übersichtlicher zu gestalten. Zusätzlich habe ich mein **Arbeitsjournal** aktualisiert und alle bisherigen Fortschritte sowie offene Punkte festgehalten.
 
-Ein weiterer Schwerpunkt dieser Woche war der **Test des Sensors.** Für mein Projekt benötige ich einen **ToF-Sensor (Time of Flight-Sensor)**, um Bewegungen zuverlässig zu erkennen. Der ursprünglich ausgewählte Sensor schien zunächst geeignet, stellte sich jedoch bei praktischen Tests als unpassend heraus. Da ich mein Gehäuse oberhalb der Tür und nicht seitlich montieren möchte, erwies sich fir **Messreichweite** des Sensors als zu gering. Das Problem war, dass der Sensor zwar andere Personen erkennen konnte, mich jedoch nicht, da ich schlichtweg zu klein für den Erfassungsbereich des Sensors bin.
+Ein weiterer Schwerpunkt dieser Woche war der **Test des Sensors.** Für mein Projekt benötige ich einen **ToF-Sensor (Time of Flight-Sensor)**, um Bewegungen zuverlässig zu erkennen. Der ursprünglich ausgewählte Sensor schien zunächst geeignet, stellte sich jedoch bei praktischen Tests als unpassend heraus. Da ich mein Gehäuse oberhalb der Tür und nicht seitlich montieren möchte, erwies sich die **Messreichweite** des Sensors als zu gering. Das Problem war, dass der Sensor zwar andere Personen erkennen konnte, mich jedoch nicht, da ich schlichtweg zu klein für den Erfassungsbereich des Sensors bin.
 
-Um eine Lösung zu finden, habe ich mich mit meinem **Lehrmeister** zusammengesetzt, und wir haben gemeinsam nachAlternativen gesucht. Nach intensiver Recherche bei **Sparkfun** sind wir auf zwei **ToF-Sensoren** gestossen, die eine **Reichweite von bis zu 4 Metern** haben. Nach eingehender Abwägung haben wir und für die kleinere Variante entschieden. Der Grund dafür ist, dass eine einfache Montage und eine ästhetische Integration über der Tür zu gewährleisten.
+Um eine Lösung zu finden, habe ich mich mit meinem **Lehrmeister** zusammengesetzt, und wir haben gemeinsam nach Alternativen gesucht. Nach intensiver Recherche bei **Sparkfun** sind wir auf zwei **ToF-Sensoren** gestossen, die eine **Reichweite von bis zu 4 Meter** haben. Nach eingehender Abwägung haben wir uns für die kleinere Variante entschieden. Der Grund dafür ist, dass eine einfache Montage und eine ästhetische Integration über der Tür zu gewährleisten.
 
 Diese Entscheidung bringt mein Projekt einen wichtigen Schritt voran, da der neue Sensor alle Anforderungen erfüllt und optimal in das Gesamtkonzept passt. Die nächste Aufgabe besteht nun darin, den neuen Sensor zu bestellen und nach Erhalt ausführlich zu testen, um sicherzustellen, dass er wie geplant funktioniert.
 
 ## KW 40
-In dieser woche habe ich mich intensiv mit der **Leistungsaufnahme** meines Projekts beschäftigt, da dies ein eintscheidender Aspekt für die Planung und den Betrieb des Systems ist. Es war für mich besonders wichtig zu wissen, wie viel **Leistung** mein Projekt im Durchschnitt verbraucht und wie lange mein **16V, 1.8Ah Akku** ausreichen wird, um das System zu betreiben.
+In dieser Woche habe ich mich intensiv mit der **Leistungsaufnahme** meines Projekts beschäftigt, da dies ein eintscheidender Aspekt für die Planung und den Betrieb des Systems ist. Es war für mich besonders wichtig zu wissen, wie viel **Leistung** mein Projekt im Durchschnitt verbraucht und wie lange mein **16V, 1.8Ah Akku** ausreichen wird, um das System zu betreiben.
 
-Ich habe die **Stromaufnahme** des Projekts gemessen und festgestellt, dass um Durchschnitt etwa **17.20mA** benötigt werden. Um eine realistische Einschätzung zu bekommen, habe ich berechnet, wie lange der Akku unter verschiedenen Bediegnungen ausreichen würde. Wenn die **Schaltung ständig aktiv** ist und das Projekt 24 Stunden am Tag läuft, würde eine vollständige **Akkuladung** für etwa **4 tage und 9 Stunden** ausreichen. Wenn das Projekt jedoch nur **10 Stunden am Tag** läuft, würde die Akkuladung **10 Tage und 11 Stunden"" halten, was einen deutlichen Unterschied macht.
+Ich habe die **Stromaufnahme** des Projekts gemessen und festgestellt, dass im Durchschnitt etwa **17.20mA** benötigt werden. Um eine realistische Einschätzung zu bekommen, habe ich berechnet, wie lange der Akku unter verschiedenen Bediegnungen ausreichen würde. Wenn die **Schaltung ständig aktiv** ist und das Projekt 24 Stunden am Tag läuft, würde eine vollständige **Akkuladung** für etwa **4 tage und 9 Stunden** ausreichen. Wenn das Projekt jedoch nur **10 Stunden am Tag** läuft, würde die Akkuladung **10 Tage und 11 Stunden"" halten, was einen deutlichen Unterschied macht.
 
 Aufgrund dieser Ergebnisse habe ich mich dazu entschlossen, einen **Schalter** in das Projekt einzubauen, der es mir ermöglicht, das System manuell auszuschalten, wenn es nicht benötigt wird. Dies bietet den Vorteil, dass die **Energieeffizienz** verbessert wird, da der Akku nicht unnötig entladen wird, wenn das Projekt nicht aktiv genutzt wird. Ausserdem kann ich so die Lebenssdauer des Zeiträume hinweg zuverlässig betrieben werden kann, ohne ständig aufgeladen werden zu müssen.
 
-Dieser Schritt ist besonders wichtif für die **Nachhaltigkeit** des Projekts und hilft mir, eine Lösung zu finden, die sowohl den **Energieverbrauch** optimiert als auch den Betrieb des Systems flexibel gestaltet.
+Dieser Schritt ist besonders wichtig für die **Nachhaltigkeit** des Projekts und hilft mir, eine Lösung zu finden, die sowohl den **Energieverbrauch** optimiert als auch den Betrieb des Systems flexibel gestaltet.
 
 ## KW 41
 War in den Ferien, habe nicht daran gearbeitet.
 
 ## KW 42
-In dieser Woche habe ich mich intensiv mit dem **Schema** meines Projekts beschäftigt. Dazu habe ich mir die **Datenblätter** der einzelnen Komponenten genau angesehen, um sicherzustellen, dass alle notwendigen Anforderungen erfüllt sich und keine wichtigen Details übersehen werden. Mein Ziel war es, die Funktionalität der Schaltung im Detail zu prüfen und herauszufinden, ob eine der drei Hauptkomponenten zusätzliche Bauteile benötigt, um ordnungsgemäss zu arbeiten.
+In dieser Woche habe ich mich intensiv mit dem **Schema** meines Projekts beschäftigt. Dazu habe ich mir die **Datenblätter** der einzelnen Komponenten genau angesehen, um sicherzustellen, dass alle notwendigen Anforderungen erfüllt sind und keine wichtigen Details übersehen wurden. Mein Ziel war es, die Funktionalität der Schaltung im Detail zu prüfen und herauszufinden, ob eine der drei Hauptkomponenten zusätzliche Bauteile benötigt, um ordnungsgemäss zu arbeiten.
 
 Während miener Analyse stellte sich heraus, dass der **Schaltregler** sowohl am **Eingang** als auch am **Ausgang** jeweils einen **Kondensator** benötigt, um die Stabilität und Effizienz der Spannungsregulierung zu gewährleisten. Diese Kondensatoren sind wichtig, um **Spannungsschwankungen** auszugleichen und eine reibungslose Funktion der Schaltung sicherzustellen.
 
 Nach dieser Erkenntnis habe ich das Schema entsprechend ergänzt und die Platzierung der Kondensatoren im Schaltplan festgelegt. Zusätzlich habe ich mich mit den **technischen Spezifikationen** dieser Kondensatoren auseinandergesetzt, um die richtigen Werte auszuwählen, die den Anforderungen der Schaltung entsprechen. Diese Anpassungen sind essenziell, um sicherzustellen, dass die gesamte Schaltung wie geplant funktioniert und keine Probleme beim späteren Testen auftreten.
 
-In der **Dokumentation** habe uch nun die **Berechnungen** ergänzt, darunter die Werte zur **Leistungsaufnahme.** Diese sind essenziell, um sicherzustellen, dass das Projekt den geplanten Anforderungen entspricht. Die Berechenungen wurden klar und nachvollziehbar dargestellt.
-
-Anschliessend hae ich in dieser Woche mein **Vero-Board** gelötet. Dabei stiess ich auf einige Schwierigkeiten, da ich die Verbindungen vollständig selbst mit **Litzen** herstellen musste. Einige der Punkte, die ich verbinden musste, waren entweder direkt nebeneinander oder hatten nur einen sehr kleinen Abstand zueinander. Um Probleme wie das Verbrühen zu vermeiden, entschied ich mich, **Lötbrücken** zu setzen, anstatt jedes einzelne Kabel zu verlöten. Dadurch konnte ich die Verbindungen schneller und sicherer herstellen, ohne dass es zu Fehlern oder Beschädigungen kam.
-
-In der **Dokumentation** habe ich begonnen, die **Funktionen** wie **SPI** (Serial Peripheral Interface) und **I2S** (Inter-IC Sound) zu beschreiben. Dabei habe ich erklärt, wie diese Kommunikationsprotokolle in meinem Projekt verwendet werden und welche Rolle sie in der **Datenübertragung** und **Signalverarbeitung** spielen. Diese Details sind wichtig, um die technischen Grundlagen des Projekts zu verdeutlichen und eine klare Nachvollziehbarkeit der verwendeten Technologien zu gewährleisten.
+In der **Dokumentation** habe ich nun die **Berechnungen** ergänzt, darunter die Werte zur **Leistungsaufnahme.** Diese sind essenziell, um sicherzustellen, dass das Projekt den geplanten Anforderungen entspricht. Die Berechenungen wurden klar und nachvollziehbar dargestellt.
 
 ## KW 43
+In dieser woche habe ich die **BoM (Bill of Materials)** erstellt. Zunächst war ich unsicher, wie ich die Liste strukturieren sollte, da ich nur den **ToF-Sensor** bestellen musste. Schließlich habe ich die Liste in zwei Hauptkategorien unterteilt:
+1. **Bereits vorhandene Bauteile**
+2. **Bauteile, die bestellt werden müssen**
+
+Die Bauteile, die ich bestellen musste, habe ich weiter in folgende Unterkategorien gegliedert:
+- **Hersteller:** Die Quelle des Bauteils
+- **Preis:** Die Kosten des Bauteils
+- **Datenblatt:** Die technischen Informationen des Bauteils
+- **Name des Bauteils:** Zur eindeutigen Identifikation
+
+Die Bauteile, die ich bereits hatte, habe ich lediglich mit den Unterkategorien **Name des Bauteils** und **Datenblatt** versehen, um die Informationen übersichtlich zu halten.
+
+Diese Struktur sorgt für eine klare und gut nachvollziehbare Übersicht der Bauteile, die im Projekt verwendet werden, und erleichtert den späteren Zugriff auf alle relevanten Details.
+
 Anschliessend habe ich in dieser Woche mein **Vero-Board** gelötet. Dabei stiess ich auf einige Schwierigkeiten, da ich die Verbindungen vollständig selbst mit **Litzen** herstellen musste. Einige der Verbindungsstellen waren entweder direkt nebeneinander oder hatten nur einen sehr kleinen Abstand zueinander, was die Arbeit zusätzlich erschwerte. Um Probleme wie das **Verbrühen** oder Fehler beim Löten zu vermeiden, entschied ich mich, **Lötbrücken** zu setzen, anstatt jedes einzelne Kabel zu verlöten. Diese Methode ermöglichte es mir, die Verbindungen schneller und sicherer herzustellen, ohne dass es zu Fehlern oder Beschädigungen kam. Es war eine effiziente Lösung, die mir Zeit sparte und gleichzeitig sicherstellte, dass die Verbindungen zuverlässig waren.
 
 In der **Dokumentation** habe ich begonnen, die Funktionen wie **SPI (Serial Peripheral Interface)** und **I2S (Inter-IC Sound)** zu beschreiben. Dabei habe ich detailliert erklärt, wie diese **Kommunikationsprotokolle** in meinem Projekt verwendet werden und welche Rolle sie in der **Datenübertragung** und **Signalverarbeitung** spielen. **SPI** wird verwendet, um eine schnelle und zuverlässige **Datenübertragung** zwischen den verschiedenen Komponenten zu ermöglichen, während **I2S** für die **Audio-Datenübertragung** zuständig ist. Diese Details sind entscheidend, um die **technischen Grundlagen** meines Projekts verständlich zu machen und eine klare Nachvollziehbarkeit der verwendeten Technologien zu gewährleisten. Zudem habe ich die Bedeutung dieser Protokolle für die Funktionalität und Effizienz des Systems erläutert, um zu verdeutlichen, wie sie zum Gesamterfolg des Projekts beitragen.
@@ -541,7 +582,7 @@ Am gleichen Tag nahm ich das Gehäuse mit nach Hause und habe es zuerst in eine
 Zu Beginn der Woche habe ich das **Arbeitsjournal** der vergangenen Woche aktualisiert, da ich etwas hinterher war. Danach habe ich mich mit einigen **Details** zum **Schaltregler** beschäftigt, den ich in meinem Projekt verwende.
 
 ## KW 46
-In dieser Woche habe ich mich mit der **Aufnahme der Audio-Dateien** für mein Projekt beschäftigt. Dafür stellte mir mein **Lehrmeister** sein **Aufnahmegerät** zur Verfügung. Ich ging im **Geschäft** umher und fragte etwa 5-6 verschiedene Personen, ob sie bereit wären, mich zu unterstützen und eine Aufnahme beizutragen. Glücklicherweise waren alle, die ich angesprochen hatte, **bereitwillig** und sogar erfreut, mir helfen zu können. Jede Person lieferte **zwei individuelle** Aufnahme, die ich später in mein Projekt einfügen wollte.
+In dieser Woche habe ich mich mit der **Aufnahme der Audio-Dateien** für mein Projekt beschäftigt. Dafür stellte mir mein **Lehrmeister** sein **Aufnahmegerät** zur Verfügung. Ich ging im **Geschäft** umher und fragte etwa 5-6 verschiedene Personen, ob sie bereit wären, mich zu unterstützen und eine Aufnahme beizutragen. Glücklicherweise waren alle, die ich angesprochen hatte, **bereitwillig** und sogar erfreut, mir helfen zu können. Jede Person lieferte **zwei individuelle** Aufnahmen, die ich später in mein Projekt einfügen wollte.
 
 Nachdem ich alle **Aufnahmen** gesammelt hatte, zeigte mir mein Lehrmeister die Software **Audacity**, ein Tool zur Bearbeitung von Audio-Dateien. Er erklärte mir die grundlegenden Funktionen der Software, und ich begann, die Aufnahmen zu bearbeiten. Dabei schnitt ich die Dateien zurecht, passte die Lautstärke an und fügte, wo nötig, Filter hinzu, um die Qualität der Aufnahmen zu verbessern. Dieser Prozess war sehr lehrreich, da ich dabei einiges über **Audio-Bearbeitung** und den Umgang mit professioneller Software gelernt habe.
 
@@ -559,12 +600,39 @@ Ein Problem, das ich lösen musste, war die mögliche **Blockade durch Schleifen
 In der **Dokumentation** habe ich diese Woche die **Berechnungen** hinzugefügt. Dazu zählten unter anderem die **Leistungsaufnahme**, die **Laufzeitberechnungen** für den Akku und die Details zu den Schaltungsanpassungen. Diese Berechnungen sind entscheidend, um die technische Umsetzbarkeit meines Projekts zu dokumentieren und sicherzustellen, dass alle relevanten Aspekte berücksichtigt wurden.
 
 ## KW 48
+In der **Woche 48** habe ich mich intensiv mit der Programmierung eines **Switch-Case-Systems** beschäftigt, das notwendig war, um die beiden verschiedenen **Modi** meines Projekts umzusetzen. Die Idee hinter dieser Struktur war es, eine klare und effiziente Möglichkeit zu schaffen, zwischen den Modi hin- und herzuschalten. Hierfür benötigte ich eine **Flankenerkennung**, um zu registrieren, wann ein Button gedrückt wurde. Diese Buttons, die über den **ESP32** eingelesen werden, ermöglichen es mir, den Modus je nach Bedarf zu wechseln.
+
+Um dies umzusetzen, musste ich mich zunächst mit der Logik der **Flankenerkennung** vertraut machen. Dabei ging es darum, zu erkennen, ob ein Signal von "nicht gedrückt" auf "gedrückt" wechselt, sodass der Modus nur bei einem echten Tastendruck umgeschaltet wird. Nach einigen Experimenten gelang es mir, die gewünschte Funktionalität zu implementieren.
+
+Zusätzlich habe ich zwei **If-Abfragen** programmiert, mit denen die **Lautstärke** des Audios manuell angepasst werden kann. Der erste Button reduziert die Lautstärke, während der zweite Button sie erhöht. Diese Funktion war für mich besonders wichtig, da sie den Nutzer ermöglicht, die Wiedergabe flexibel an ihre Bedürfnisse anzupassen.
+
+Ein weiteres Feature, das ich umsetzen wollte, war die Möglichkeit, die **Audio-Dateien in zufälliger Reihenfolge** abzuspielen. Im entsprechenden Modus sollten die Dateien nicht chronologisch, sondern in einer **Random-Reihenfolge** abgespielt werden. Dafür musste ich mich eingehend mit der **random()**-Funktion beschäftigen. Nach einigen Tests konnte ich sicherstellen, dass die zufällige Wiedergabe wie gewünscht funktioniert und keine Datei doppelt abgespielt wird, bevor alle anderen einmal abgespielt wurden.
+
+Parallel dazu habe ich in der Dokumentation weitergearbeitet und mich dabei auf das **Arbeitsjournal** konzentriert. Ich aktualisierte die Einträge der vergangenen Wochen und fügte weitere Details hinzu, um die Fortschritte und Herausforderungen meiner Arbeit vollständig zu dokumentieren.
+
 ## KW 49
+In dieser Woche habe ich mich darum gekümmert, dass die **Audio-Dateie**n nicht mehr manuell in den **Code** eingebunden werden müssen. Stattdessen sollte der Prozess automatisiert ablaufen, sodass neue **Sound-Dateien**, die auf die **SD-Karte** geladen werden, automatisch erkannt und ins **Programm** integriert werden.
+
+Hierfür habe ich den **Code** angepasst, um alle auf der SD-Karte gespeicherten **Audio-Dateien** dynamisch einzulesen und in einer Liste zu speichern. Diese Liste wird dann vom Programm verwendet, um die Dateien abzuspielen, ohne dass eine erneute manuelle Anpassung notwendig ist. Der Vorteil dieses Ansatzes ist, dass das System künftig flexibel bleibt und mit neuen **Audio-Inhalten** erweitert werden kann, ohne zusätzlichen Aufwand.
+
+Die Umsetzung erforderte, dass ich mich intensiver mit den **Dateisystem-Funktionen** der SD-Bibliothek auseinandergesetzt habe, um sicherzustellen, dass alle Dateien korrekt gelesen und eingebunden werden. Zudem testete ich die Funktion ausgiebig, um sicherzugehen, dass auch unterschiedliche Dateiformate und Dateinamen problemlos erkannt werden.
+
+Mit dieser Anpassung ist das Projekt deutlich anwenderfreundlicher und effizienter geworden.
+
 ## KW 50
+In dieser Woche habe ich mich darauf konzentriert, meinen **Loop** im Code sorgfältig zu **kommentieren**. Das Ziel war es, den Ablauf des Programms klarer und verständlicher zu machen, sowohl für mich als auch für andere Personen, die den Code möglicherweise lesen oder weiterentwickeln möchten.
+
 ## KW 51
+In dieser Woche habe ich mein **Projekt** ausführlich anhand der festgelegten **Anforderungen** getestet. Dabei überprüfte ich, ob alle **funktionalen** und **nicht-funktionalen Anforderungen** erfüllt wurden. Besonders achtete ich darauf, dass der **ToF-Sensor** zuverlässig funktioniert, die **Audio-Wiedergab**e korrekt abläuft und die **Modi-Steuerung** wie geplant umschaltet. Zusätzlich testete ich die **Lautstärkeregelung** und die **Zufallswiedergabe** der Audiodateien. Wo kleinere Abweichungen auftraten, habe ich Notizen gemacht, um diese später anzupassen.
+
 ## KW 52
+In den **Ferien** habe ich die **Zeit** genutzt, um meine **Rechtschreibfehler** in der **3** zu korrigieren. Dabei habe ich jeden Abschnitt sorgfältig durchgelesen und verbessert, um sicherzustellen, dass der Text klar und fehlerfrei ist. Zusätzlich habe ich kleinere **Formatierungsanpassungen** vorgenommen, um die Lesbarkeit weiter zu optimieren.
+
 ## KW 01
+In dieser Woche habe ich die **Bilder** in die **Dokumentation** eingefügt, passend beschriftet und kurz erklärt, um den Inhalt **anschaulicher** zu gestalten.
+
 ## KW 02
+Auch in der letzten Woche habe ich das **Dokument** nochmals **überflogen** und **überarbeitet**. Geplant ist, dass ich mich für die kommenden Woche der **Vorbereitung** der **Präsentation** widme.
 
 # Anhang
 [ESP32 Datenblatt](esp32-audio-kit_v2.2_sch.pdf)  
