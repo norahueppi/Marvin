@@ -84,17 +84,44 @@ Anzahl der Tage = Gesamtlaufzeit / Betriebsdauer pro Tag
 
 ## Energieverbrauch pro Tag
 **Formel**
-- Laufzeit bei neuer Kapazität (in Stunden) = alte Laufzeit (in Stunden) * neue Kapazität (in Ah) / alte Kapazität (in Ah)
+- Verbrauchte Energie/Tag (Wh/Tag) = Strom (A) × Spannung (V) × Betriebszeit (h)
 
 **Gegebene Werte:**
-- alte Kapazität: 1.8 Ah
 - Stromverbrauch: 17.20 mA = 0,0172 A
-- alte Laufzeit: 104.65 h
-- neue Kapazität: 5 Ah
+- Spannung: 16 V
+- Betriebsdauer: 10 h
 
 **Berechnung:**
-Laufzeit bei neuer Kapazität = alte Laufzeiten * neue Kapazität / alte Kapazität 
-= 104.65 h * 5 Ah / 1.8 Ah = ***29,42 h***
+Verbrauchte Energie/Tag = Strom × Spannung × Betriebszeit
+= 17.20 mA * 16 V * 10 h = ***2.75 Wh/Tag***
+
+## Laufzeit unter Brücksichtigung vonLadeverlusten
+**Formel**
+- Effektive Kapazität (Ah) = Kapazität (Ah) × Effizienz
+- Betriebsdauer (in Stunden) = Kapazität (in Ah) / Stromverbrauch (in A)
+
+**Gegebene Werte:**
+- Kapazität: 1.8 Ah
+- Effizienz: 85 %
+
+**Berechnung:**
+Effektive Kapazität = Kapazität × Effizienz
+= 1.8 Ah * 85 % = *1.53 Ah*
+
+Betriebsdauer = Kapazität / Stromverbrauch 
+= 1.53 Ah / 17.20 mA = ***88.95 h***
+
+## Abschätzung der Ladezeit
+**Formel**
+- Ladezeit (h) = Kapazität (Ah) / Ladestrom (A)
+
+**Gegebene Werte:**
+- Kapazität: 1.8 Ah
+- Ladestrom: 0.5 A
+
+**Berechnung:**
+adezeit = Kapazität / Ladestrom
+= 1.8 Ah / 0.5 A = ***3.6 h***
 
 # Realisierung
 ## Funktionen
@@ -543,7 +570,7 @@ In der **Dokumentation** habe ich diese Woche die **Berechnungen** hinzugefügt.
 [ESP32 Datenblatt](esp32-audio-kit_v2.2_sch.pdf)  
 [TOF Datenblatt](TMF882X_DataSheet.pdf)  
 [TOF mini Schematic](SparkFun_dToF-TMF8820_Mini_Schematic.pdf)  
-[Schaltregler Dtaenblatt](R_78E_1_0-1711201.pdf)  
+[Schaltregler Datenblatt](R_78E_1_0-1711201.pdf)  
 
 # Zeitplan und Anforderungen
 [Zeitplan und Anforderungen](Marvin_AudioAnlage_Anforderungen_NoraHueppi_20240917.xlsx)  
