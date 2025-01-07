@@ -59,7 +59,7 @@ Die Energieversorgung des gesamten Systems erfolgt über eine 16-Volt-Batterie. 
 - Kapazität der Batterie: 1.8 Ah
 - Stromverbrauch: 17.20 mA = 0,0172 A
 
-**Berechnung:**
+**Berechnung:**  
 Betriebsdauer = Kapazität / Stromverbrauch 
 = 1.8 Ah / 17.20 mA = *104.65 h*
 
@@ -75,7 +75,7 @@ Anzahl der Tage = Gesamtlaufzeit / Betriebsdauer pro Tag
 - Kapazität der Batterie: 1.8 Ah
 - Stromverbrauch: 17.20 mA = 0,0172 A
 
-**Berechnung:**
+**Berechnung:**  
 Betriebsdauer = Kapazität / Stromverbrauch 
 = 1.8 Ah / 17.20 mA = *104.65 h*
 
@@ -91,7 +91,7 @@ Anzahl der Tage = Gesamtlaufzeit / Betriebsdauer pro Tag
 - Spannung: 16 V
 - Betriebsdauer: 10 h
 
-**Berechnung:**
+**Berechnung:**  
 Verbrauchte Energie/Tag = Strom × Spannung × Betriebszeit
 = 17.20 mA * 16 V * 10 h = ***2.75 Wh/Tag***
 
@@ -104,7 +104,7 @@ Verbrauchte Energie/Tag = Strom × Spannung × Betriebszeit
 - Kapazität: 1.8 Ah
 - Effizienz: 85 %
 
-**Berechnung:**
+**Berechnung:**  
 Effektive Kapazität = Kapazität × Effizienz
 = 1.8 Ah * 85 % = *1.53 Ah*
 
@@ -119,7 +119,7 @@ Betriebsdauer = Kapazität / Stromverbrauch
 - Kapazität: 1.8 Ah
 - Ladestrom: 0.5 A
 
-**Berechnung:**
+**Berechnung:**  
 Ladezeit = Kapazität / Ladestrom
 = 1.8 Ah / 0.5 A = ***3.6 h***
 
