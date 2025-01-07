@@ -360,30 +360,27 @@ Das **ESP32-Audio-Kit** ist eine leistungsstarke, kostengünstige und vielseitig
 |Wenn Sensor an eine LED an | X |   |  
 |Sensor soll Audioanlage aktivieren| X|   |  
 |Audiofiles selbst aufgenommen| X|   |  
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
+|Audio von Benutzer auf System laden|X|   |
+|Audio auf SD-Karte laden|X|   |
+|Anlage soll um eine Zeit aktiviert werden|   |X|
+|Lauststärke durch tasten einstellbar|X|   |
+|Lautstärke wird gespeichert|X|   |
+|Anlage Aktiviert dann Bestätigungs geräusch|   |X|
+|Standby Modus|   |X|
+|zwei Modis|X|   | 
+|Modi 1 Widergabe in Reihenfolge|X|   |  
+|Modi 2 Zufallswiedergabe|X|   |  
+
+## Nicht Funktionale Anforderungen
+|Anforderungen              |Funktioniert |Funktioniert nicht |  
+|---------------------------------|--------------|-------------| 
+|Ober halb d er dür Montieren|   |X|
+|So klein wie möglich|X|   |
+|Gehäuse hat ein Motiv von Marvin darauf|X|   |
+|Batterie nicht sichtbar|X|   |
+|Sensor soll nach 0,5 s reagierne |X|   |
+|im Standby modus minimal sttrom verbrauchen|   |X|
+|Schutzmechanismus gegen Überspannung und Kurzschluss|   |X|
 
 # Schwierigkeiten im Code
 ## Zwei I2C Schnittstellen
