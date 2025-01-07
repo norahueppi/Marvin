@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Marvin")(type "KiCad")(uri "${KIPRJMOD}/Marvin.kicad_sym")(options "")(descr ""))
-)

@@ -220,6 +220,11 @@ Es ist **langsamer als SPI**, da die serielle Übertragung und das Adressierungs
 - **Mikrocontroller-Kommunikation:** Verbindung zwischen Mikrocontrollern oder Peripheriegeräten.
 
 ## Aufbau
+### Schema
+![Schema](Schema.png)  
+
+### Leistungs aufnahme
+![Leistungsaufnahme](Aufbau_Leistungsaufnahme.png)
 
 # Bauelemente
 ## Schaltregler
@@ -374,7 +379,7 @@ Das **ESP32-Audio-Kit** ist eine leistungsstarke, kostengünstige und vielseitig
 ## Nicht Funktionale Anforderungen
 |Anforderungen              |Funktioniert |Funktioniert nicht |  
 |---------------------------------|--------------|-------------| 
-|Ober halb d er dür Montieren|   |X|
+|Oberhalb der dür Montieren|   |X|
 |So klein wie möglich|X|   |
 |Gehäuse hat ein Motiv von Marvin darauf|X|   |
 |Batterie nicht sichtbar|X|   |
@@ -403,8 +408,6 @@ void setup()
     }
 }
 ```
-## 
-
 
 # Arbeitsjournal
 ## KW 34
@@ -527,6 +530,8 @@ In dieser Woche habe ich mich intensiv mit der **Leistungsaufnahme** meines Proj
 
 Ich habe die **Stromaufnahme** des Projekts gemessen und festgestellt, dass im Durchschnitt etwa **17.20mA** benötigt werden. Um eine realistische Einschätzung zu bekommen, habe ich berechnet, wie lange der Akku unter verschiedenen Bediegnungen ausreichen würde. Wenn die **Schaltung ständig aktiv** ist und das Projekt 24 Stunden am Tag läuft, würde eine vollständige **Akkuladung** für etwa **4 tage und 9 Stunden** ausreichen. Wenn das Projekt jedoch nur **10 Stunden am Tag** läuft, würde die Akkuladung **10 Tage und 11 Stunden"" halten, was einen deutlichen Unterschied macht.
 
+![Leistugnsaufnahme](LeistungsAufnahme.png)  
+
 Aufgrund dieser Ergebnisse habe ich mich dazu entschlossen, einen **Schalter** in das Projekt einzubauen, der es mir ermöglicht, das System manuell auszuschalten, wenn es nicht benötigt wird. Dies bietet den Vorteil, dass die **Energieeffizienz** verbessert wird, da der Akku nicht unnötig entladen wird, wenn das Projekt nicht aktiv genutzt wird. Ausserdem kann ich so die Lebenssdauer des Zeiträume hinweg zuverlässig betrieben werden kann, ohne ständig aufgeladen werden zu müssen.
 
 Dieser Schritt ist besonders wichtig für die **Nachhaltigkeit** des Projekts und hilft mir, eine Lösung zu finden, die sowohl den **Energieverbrauch** optimiert als auch den Betrieb des Systems flexibel gestaltet.
@@ -565,7 +570,14 @@ In der **Dokumentation** habe ich begonnen, die Funktionen wie **SPI (Serial Per
 ## KW 44
 In der **Woche 44** habe ich mich daran gemacht, das **Gehäuse** zu designen. Ehrlich gesagt hatte ich mir den Prozess einfacher vorgestellt, als er letztlich war. Ich habe das Gehäuse mit **OnShape** gezeichnet. Da ich zu Beginn nicht genau wusste, wie die Plattform funktioniert hat mein **Oberstift Eros Porcella** mir geholfen, mein Projekt in OnShape einzurichten und mich beim Zeichnen zu unterstützen. Er hat mir bei den ersten Schritten zur Seite gestanden und viele meiner Fragen beantwortet.
 
-Nachdem ich alle einzelnen Bauteile des Gehäuses gezeichnet hatte, musste ich sie noch im **Assembly** zusammenfügen, um sicherzustellen, dass alles wie geplant zusammenpasst. Dabei stellte sich jedoch heraus, dass ich die einzelnen Elemente nicht auf der gleichen Ebene gezeichnet hatte. Um dieses Problem zu lösen, habe ich mir **YouTube-Videos** angeschaut, die mir zeigten, wie ich das gesamte Design auf eine andere **Grundebene** verschieben kann. Bei der Gestaltung des **UART-Ports** gab es ebenfalls Schwierigkeiten, weshalb ich das Design an dieser Stelle nochmals überarbeiten musste.
+Nachdem ich alle einzelnen Bauteile des Gehäuses gezeichnet hatte, musste ich sie noch im **Assembly** zusammenfügen, um sicherzustellen, dass alles wie geplant zusammenpasst. Dabei stellte sich jedoch heraus, dass ich die einzelnen Elemente nicht auf der gleichen Ebene gezeichnet hatte. Um dieses Problem zu lösen, habe ich mir **YouTube-Videos** angeschaut, die mir zeigten, wie ich das gesamte Design auf eine andere **Grundebene** verschieben kann. Bei der Gestaltung des **UART-Ports** gab es ebenfalls Schwierigkeiten, weshalb ich das Design an dieser Stelle nochmals überarbeiten musste.  
+
+![UART](UART.png)  
+![ToF](ToF.png)  
+![Bottom](Bottom.png)  
+![Top](Top.png)  
+![Lid](Lid.png)  
+![Gesamtes Gehäuse](Gesamtes_Gehaeuse.png)  
 
 Am **Freitag** habe ich das Gehäuse dann drucken lassen, und am **Samstagmittag** war es schliesslich fertig gedruckt.
 
