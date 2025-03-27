@@ -3523,6 +3523,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 69.85 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36d225f5-37cd-4e1d-bef0-fdb597a84637")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.3572 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_GPIO0"
 		(shape output)
 		(at 203.2 73.66 0)
@@ -3567,6 +3589,28 @@
 			)
 		)
 	)
+	(global_label "SPI0_MOSI"
+		(shape input)
+		(at 69.85 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fe447c0-c171-4048-9a70-cb9009fd69ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0072 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_U0_TX"
 		(shape output)
 		(at 121.92 46.99 0)
@@ -3585,6 +3629,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI0_CLK"
+		(shape input)
+		(at 69.85 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54631117-41c2-4c41-8aa0-eaecef25b027")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.0353 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3651,6 +3717,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDCARD_LCAC_CS"
+		(shape input)
+		(at 69.85 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b438076-a352-4414-aad9-861753458e41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4153 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 69.85 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84cfff3c-a4d1-4fd7-93ce-bfd84814b6ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1854 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3765,6 +3875,28 @@
 			)
 		)
 	)
+	(global_label "SPI0_MISO"
+		(shape input)
+		(at 69.85 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2edc56b-6247-416f-a8e0-30d1c060b189")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0072 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape bidirectional)
 		(at 48.26 151.13 180)
@@ -3800,6 +3932,28 @@
 		(uuid "ca8fb4a4-4a21-4253-b195-6157bcdcbf6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.5839 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LS_ENABLE"
+		(shape input)
+		(at 69.85 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebac39ea-f5ec-4dd3-be34-b8e159a1c8ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.6444 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +6934,45 @@
 		)
 	)
 	(sheet
-		(at 215.9 101.6)
+		(at 254 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45c6a061-c918-4955-8a15-6814a3841d54")
+		(property "Sheetname" "Power"
+			(at 254 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 254 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 63.5)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -6792,7 +6984,7 @@
 		)
 		(uuid "bdca4736-064c-4a00-bf5d-3ba28a5011c7")
 		(property "Sheetname" "AudioCodec"
-			(at 215.9 100.8884 0)
+			(at 254 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +6993,7 @@
 			)
 		)
 		(property "Sheetfile" "AudioCodec.kicad_sch"
-			(at 215.9 114.8846 0)
+			(at 254 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +7002,7 @@
 			)
 		)
 		(property "Feld2" ""
-			(at 215.9 101.6 0)
+			(at 254 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,6 +7014,82 @@
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 114.3)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3a6231d-eb6d-4714-8419-7fd771234abb")
+		(property "Sheetname" "Untitled Sheet"
+			(at 254 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 254 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 139.7)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2f13a77-7e80-46a8-9242-6bb657e20f64")
+		(property "Sheetname" "SD_KARTE"
+			(at 254 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_KARTE.kicad_sch"
+			(at 254 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf"
+					(page "5")
 				)
 			)
 		)

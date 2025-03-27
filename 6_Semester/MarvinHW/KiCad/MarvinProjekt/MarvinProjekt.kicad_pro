@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Library"
+    ]
   },
   "meta": {
     "filename": "MarvinProjekt.kicad_pro",
@@ -390,6 +392,18 @@
     [
       "bdca4736-064c-4a00-bf5d-3ba28a5011c7",
       "AudioCodec"
+    ],
+    [
+      "45c6a061-c918-4955-8a15-6814a3841d54",
+      "Power"
+    ],
+    [
+      "c3a6231d-eb6d-4714-8419-7fd771234abb",
+      "Untitled Sheet"
+    ],
+    [
+      "d2f13a77-7e80-46a8-9242-6bb657e20f64",
+      "SD_KARTE"
     ]
   ],
   "text_variables": {}
