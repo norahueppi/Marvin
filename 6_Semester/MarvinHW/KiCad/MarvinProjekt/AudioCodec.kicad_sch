@@ -546,8 +546,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "ES8388"
+				(at -0.254 -42.418 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -555,7 +555,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 41.402 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -564,7 +564,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 41.402 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -573,7 +573,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 41.402 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -596,7 +596,7 @@
 			)
 			(symbol "ES8388_1_1"
 				(text "ADCVREF"
-					(at 6.096 -25.4 0)
+					(at 27.94 -25.908 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -604,15 +604,7 @@
 					)
 				)
 				(text "AGND"
-					(at 7.874 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "ASDOUT"
-					(at -6.604 -24.13 0)
+					(at 29.718 0.762 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -620,55 +612,7 @@
 					)
 				)
 				(text "AVDD"
-					(at 7.874 6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "CCLK"
-					(at -8.128 -4.064 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "CDATA"
-					(at -7.62 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "CE"
-					(at -9.144 -8.89 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "DGND"
-					(at -7.874 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "DSDIN"
-					(at -7.62 -21.59 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "DVDD"
-					(at -7.874 8.89 0)
+					(at 29.718 5.842 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -676,7 +620,7 @@
 					)
 				)
 				(text "HPGND"
-					(at 7.112 -1.27 0)
+					(at 28.956 -1.778 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -684,23 +628,7 @@
 					)
 				)
 				(text "HPVDD"
-					(at 7.366 8.89 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "LIN1"
-					(at -8.382 -29.21 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "LIN2\n"
-					(at -8.382 -36.83 0)
+					(at 29.21 8.382 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -708,7 +636,7 @@
 					)
 				)
 				(text "LOUT1"
-					(at 7.366 -6.35 0)
+					(at 29.21 -6.858 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -716,23 +644,7 @@
 					)
 				)
 				(text "LOUT2"
-					(at 7.366 -13.97 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "LRCK"
-					(at -7.874 -19.05 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "MCLK"
-					(at -7.874 -13.97 0)
+					(at 29.21 -14.478 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -740,7 +652,7 @@
 					)
 				)
 				(text "NC1"
-					(at 8.382 -33.02 0)
+					(at 30.226 -33.528 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -748,7 +660,7 @@
 					)
 				)
 				(text "NC2"
-					(at 8.382 -35.56 0)
+					(at 30.226 -36.068 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -756,31 +668,7 @@
 					)
 				)
 				(text "PGND"
-					(at 7.62 -40.64 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "PVDD"
-					(at -7.874 6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "RIN1\n"
-					(at -8.128 -33.02 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "RIN2"
-					(at -8.128 -40.64 0)
+					(at 29.464 -41.148 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -788,7 +676,7 @@
 					)
 				)
 				(text "ROUT1"
-					(at 7.366 -10.16 0)
+					(at 29.21 -10.668 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -796,15 +684,7 @@
 					)
 				)
 				(text "ROUT2"
-					(at 7.112 -17.78 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "SCLK\n"
-					(at -7.874 -16.51 0)
+					(at 28.956 -18.288 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -812,7 +692,7 @@
 					)
 				)
 				(text "VMID"
-					(at 8.128 -22.86 0)
+					(at 29.972 -23.368 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -820,7 +700,7 @@
 					)
 				)
 				(text "VREF"
-					(at 7.874 -27.94 0)
+					(at 29.718 -28.448 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -830,7 +710,7 @@
 				(pin input line
 					(at -13.97 -13.97 0)
 					(length 2.54)
-					(name ""
+					(name "MCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -848,7 +728,7 @@
 				(pin input line
 					(at 13.97 -27.94 180)
 					(length 2.54)
-					(name ""
+					(name "VREF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -866,7 +746,7 @@
 				(pin input line
 					(at 13.97 -10.16 180)
 					(length 2.54)
-					(name ""
+					(name "ROUT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -884,7 +764,7 @@
 				(pin input line
 					(at 13.97 -6.35 180)
 					(length 2.54)
-					(name ""
+					(name "LOUT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -902,7 +782,7 @@
 				(pin input line
 					(at 13.97 -1.27 180)
 					(length 2.54)
-					(name ""
+					(name "HPGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -920,7 +800,7 @@
 				(pin input line
 					(at 13.97 -17.78 180)
 					(length 2.54)
-					(name ""
+					(name "ROUT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -938,7 +818,7 @@
 				(pin input line
 					(at 13.97 -13.97 180)
 					(length 2.54)
-					(name ""
+					(name "LOUT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -956,7 +836,7 @@
 				(pin input line
 					(at 13.97 8.89 180)
 					(length 2.54)
-					(name ""
+					(name "HPVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -974,7 +854,7 @@
 				(pin input line
 					(at 13.97 6.35 180)
 					(length 2.54)
-					(name ""
+					(name "AVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -992,7 +872,7 @@
 				(pin input line
 					(at 13.97 1.27 180)
 					(length 2.54)
-					(name ""
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1010,7 +890,7 @@
 				(pin input line
 					(at 13.97 -25.4 180)
 					(length 2.54)
-					(name ""
+					(name "ADCVREF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1028,7 +908,7 @@
 				(pin input line
 					(at -13.97 8.89 0)
 					(length 2.54)
-					(name ""
+					(name "DVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1046,7 +926,7 @@
 				(pin input line
 					(at 13.97 -22.86 180)
 					(length 2.54)
-					(name ""
+					(name "VMID"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1064,7 +944,7 @@
 				(pin input line
 					(at -13.97 -40.64 0)
 					(length 2.54)
-					(name ""
+					(name "RIN2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1082,7 +962,7 @@
 				(pin input line
 					(at -13.97 -36.83 0)
 					(length 2.54)
-					(name ""
+					(name "LIN2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1100,7 +980,7 @@
 				(pin input line
 					(at -13.97 -33.02 0)
 					(length 2.54)
-					(name ""
+					(name "RIN1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1118,7 +998,7 @@
 				(pin input line
 					(at -13.97 -29.21 0)
 					(length 2.54)
-					(name ""
+					(name "LIN1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1136,7 +1016,7 @@
 				(pin input line
 					(at 13.97 -35.56 180)
 					(length 2.54)
-					(name ""
+					(name "NC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1154,7 +1034,7 @@
 				(pin input line
 					(at -13.97 -8.89 0)
 					(length 2.54)
-					(name ""
+					(name "CE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1172,7 +1052,7 @@
 				(pin input line
 					(at -13.97 -6.35 0)
 					(length 2.54)
-					(name ""
+					(name "CDATA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1190,7 +1070,7 @@
 				(pin input line
 					(at -13.97 -3.81 0)
 					(length 2.54)
-					(name ""
+					(name "CCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1208,7 +1088,7 @@
 				(pin input line
 					(at 13.97 -40.64 180)
 					(length 2.54)
-					(name ""
+					(name "PGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1226,7 +1106,7 @@
 				(pin input line
 					(at -13.97 6.35 0)
 					(length 2.54)
-					(name ""
+					(name "PVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1244,7 +1124,7 @@
 				(pin input line
 					(at -13.97 1.27 0)
 					(length 2.54)
-					(name ""
+					(name "DGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1262,7 +1142,7 @@
 				(pin input line
 					(at -13.97 -16.51 0)
 					(length 2.54)
-					(name ""
+					(name "SCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1280,7 +1160,7 @@
 				(pin input line
 					(at -13.97 -21.59 0)
 					(length 2.54)
-					(name ""
+					(name "DSDIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1298,7 +1178,7 @@
 				(pin input line
 					(at -13.97 -19.05 0)
 					(length 2.54)
-					(name ""
+					(name "LRCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1316,7 +1196,7 @@
 				(pin input line
 					(at -13.97 -24.13 0)
 					(length 2.54)
-					(name ""
+					(name "ASDOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1334,7 +1214,7 @@
 				(pin input line
 					(at 13.97 -33.02 180)
 					(length 2.54)
-					(name ""
+					(name "NC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1363,8 +1243,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "NS4150"
+				(at -0.254 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1612,7 +1492,7 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1629,7 +1509,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1655,7 +1535,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1673,7 +1553,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1711,7 +1591,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4063,6 +3943,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 157.48 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "025d63f2-8b23-46e8-bd8b-a424813c3682")
+		(property "Reference" "#PWR044"
+			(at 157.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 157.48 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 157.48 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07ae2486-90eb-41bf-8486-f3f0a50d6073")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 96.52 175.26 0)
 		(unit 1)
@@ -4422,7 +4368,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ES8388"
 			(at 110.49 22.86 0)
 			(effects
 				(font
@@ -4623,6 +4569,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f7fcbb-397b-4dc0-8e04-9fd79c466025")
+		(property "Reference" "#PWR046"
+			(at 31.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 31.75 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e1d7651-2291-460e-ac25-547052c2f435")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.01 30.48 0)
 		(unit 1)
@@ -4755,6 +4767,72 @@
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 184.15 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1714f9f5-a5b5-423a-9e0f-890284e72a8d")
+		(property "Reference" "#PWR043"
+			(at 184.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 184.15 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 184.15 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0631339b-598b-4614-8d38-05f4853ebaff")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5648,72 +5726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 31.75 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4512a9ae-c7bd-44cc-942c-a1aa8a958976")
-		(property "Reference" "#PWR042"
-			(at 31.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 31.75 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 31.75 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c165c87b-a715-4637-a812-4cae0e800bd1")
-		)
-		(instances
-			(project "MarvinProjekt"
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:NS4150")
 		(at 129.54 167.64 0)
 		(unit 1)
@@ -5731,7 +5743,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NS4150"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -5872,72 +5884,6 @@
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 20.32 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c231766-8d2b-4132-97b2-0ba675716e98")
-		(property "Reference" "#PWR043"
-			(at 20.32 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 20.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 20.32 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3534fcbe-3678-4d46-84dd-f7e913e77807")
-		)
-		(instances
-			(project "MarvinProjekt"
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7033,6 +6979,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 20.32 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a200550-4886-47c4-b5c4-b0c6680ee546")
+		(property "Reference" "#PWR047"
+			(at 20.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 20.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 20.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17c91d39-5a32-4383-86ce-72ecdff167ea")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 36.83 0)
 		(unit 1)
@@ -7439,138 +7451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 184.15 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a37dd39c-4f08-4ea4-b796-86e64a366924")
-		(property "Reference" "#PWR046"
-			(at 184.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 184.15 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 184.15 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d9241b9-9f13-42e7-941f-1ba5f20f4fe1")
-		)
-		(instances
-			(project "MarvinProjekt"
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 64.77 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7b04ea5-8f64-4c64-a003-318c1033b1fb")
-		(property "Reference" "#PWR044"
-			(at 64.77 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 64.77 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 64.77 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df703fe1-bb02-4a0f-abe2-84b3caf38d36")
-		)
-		(instances
-			(project "MarvinProjekt"
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 207.01 121.92 0)
 		(unit 1)
@@ -7772,6 +7652,72 @@
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 64.77 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ab0f43-7df3-44c6-810a-7f599473e783")
+		(property "Reference" "#PWR045"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 64.77 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fa8ce7f-c03e-405a-b133-ec88d96f8783")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8184,72 +8130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 157.48 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8144bb7-220e-4914-82f5-5965a4fd362f")
-		(property "Reference" "#PWR045"
-			(at 157.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 157.48 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 157.48 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad7560f3-df21-4928-aea6-887705b4e70e")
-		)
-		(instances
-			(project "MarvinProjekt"
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 196.85 147.32 270)
 		(unit 1)
@@ -8517,6 +8397,72 @@
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.68 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7820b6e-0786-43fb-b371-beeaea738273")
+		(property "Reference" "#PWR042"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69e5eb36-478a-4e04-9c39-c3e9ab1b51a4")
+		)
+		(instances
+			(project ""
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9343,72 +9289,6 @@
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 106.68 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f807e502-dea4-4c99-91f3-ee6e5f1f337e")
-		(property "Reference" "#PWR047"
-			(at 106.68 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 106.68 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.68 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "557369e0-e6fa-47db-a4a0-27006cf7706d")
-		)
-		(instances
-			(project "MarvinProjekt"
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/bdca4736-064c-4a00-bf5d-3ba28a5011c7"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)

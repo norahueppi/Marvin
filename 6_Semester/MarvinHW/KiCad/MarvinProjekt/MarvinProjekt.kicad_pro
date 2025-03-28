@@ -404,6 +404,10 @@
     [
       "d2f13a77-7e80-46a8-9242-6bb657e20f64",
       "SD_KARTE"
+    ],
+    [
+      "21fa950a-89dd-4068-8bce-6547d9d9f5b6",
+      "Battery_Charge"
     ]
   ],
   "text_variables": {}

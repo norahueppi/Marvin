@@ -419,8 +419,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "TF_CARD"
+				(at 0.762 -30.734 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -704,7 +704,7 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -721,7 +721,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -747,7 +747,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -765,7 +765,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -803,7 +803,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -934,12 +934,6 @@
 		(uuid "08dde6f0-7484-4a4d-95ca-fe205be7a117")
 	)
 	(junction
-		(at 146.05 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "526caabf-7af0-47cf-835a-0c64cfd51711")
-	)
-	(junction
 		(at 161.29 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -950,6 +944,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "599ad552-824e-4b55-9de3-c9e85186c852")
+	)
+	(junction
+		(at 146.05 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5abfe625-8a1b-47ef-95dd-af26bc0640bd")
 	)
 	(junction
 		(at 109.22 86.36)
@@ -1702,10 +1702,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd192c47-c182-431d-b01f-137893c7c027")
+			(uuid "3252a3a1-5433-485f-ae37-6f7875cf6dae")
 		)
 		(pin "2"
-			(uuid "24e6824a-b9a5-4f92-aca8-39fec068896c")
+			(uuid "9f5771b8-3334-4a77-bcae-3b190fc16722")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -1771,10 +1771,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "26f56fc5-d559-4d0a-8743-a075d62d4050")
+			(uuid "907f16f1-20e5-45be-954c-1cedd18bb617")
 		)
 		(pin "1"
-			(uuid "8bd17ab5-1ad3-48b2-a269-c17a9e77fce2")
+			(uuid "3f4bacc4-7a98-4160-aaa5-1a2bb369b3c9")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -1840,10 +1840,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "44ddd6b0-9478-40e7-b385-f1c4c3e5c40a")
+			(uuid "f2a22fd3-9485-4336-8466-2367cbb67d20")
 		)
 		(pin "2"
-			(uuid "b1187716-870e-4ca0-84d4-a3a7b48511bb")
+			(uuid "959e7cd3-3667-4ec7-89c9-58e4017f1cc4")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -1909,10 +1909,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "87c4857c-52ae-455b-89bd-81b9a5a821d2")
+			(uuid "8431aad2-0b29-4065-8afe-104a664918a2")
 		)
 		(pin "1"
-			(uuid "ecec6ebb-3d7d-4145-bec0-59d2b6e347c5")
+			(uuid "45cc81d9-727e-4d09-88f2-63d22f8f8d9c")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -1976,81 +1976,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "34e92027-bf96-45a8-83f8-92823dfdfe35")
+			(uuid "11b73ac0-497d-4579-a181-e5ebff5e3893")
 		)
 		(pin "2"
-			(uuid "e1097891-4fe6-4e33-897c-d9bd1827c398")
+			(uuid "95b8f326-0741-4f0c-abb6-8c7ef946ed14")
 		)
 		(instances
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 109.22 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f265d79-32d4-467b-94bb-0556e5e047b2")
-		(property "Reference" "#PWR040"
-			(at 109.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 109.22 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 109.22 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0a772a0-f1d0-4c1a-9063-0a59aa3c28bd")
-		)
-		(instances
-			(project ""
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2111,15 +2045,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7fc0ad5-38d6-42f7-b288-14a829940fe3")
-		)
-		(instances
-			(project ""
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
+			(uuid "7782a0d1-404f-4812-b8c8-5bcd8c30f921")
 		)
 	)
 	(symbol
@@ -2175,10 +2101,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "26a89c0d-f3a9-480a-bb77-45f62829d657")
+			(uuid "5e9898d9-f41b-4308-afa6-e5b644116ed6")
 		)
 		(pin "2"
-			(uuid "1d88f82c-a89c-4035-a861-be381b230e4f")
+			(uuid "2a488ae8-f4fd-4125-a4d8-e058eea1ee18")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -2244,7 +2170,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c589786-fafe-42b9-8a4e-1fc5e19d84c6")
+			(uuid "2bab15d0-d70c-47fa-b6f5-455d5015853f")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -2310,10 +2236,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "faef002c-fa94-40e2-b704-d1170d2835e3")
+			(uuid "5db9c9ae-23b7-4a29-9ec4-06c519bd42b8")
 		)
 		(pin "2"
-			(uuid "8d8c12f7-93b8-434d-ad4b-56bd6c4b6bcc")
+			(uuid "1b59f2b1-1166-403a-8b8e-75a586579134")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -2377,10 +2303,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd574630-3e66-4bb7-aaa2-d2dc9c607f2f")
+			(uuid "b3171a69-f257-4ebc-9d36-13160956d69e")
 		)
 		(pin "2"
-			(uuid "7ef8fa29-18ff-4937-a287-f226b78631d3")
+			(uuid "5e6cb558-88b8-4530-bf3f-230f1b64e46d")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -2444,10 +2370,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8e3c352-ecde-4ae2-bb45-4ef050b71562")
+			(uuid "e0fb80de-892a-47b9-a815-884c2bda3da7")
 		)
 		(pin "2"
-			(uuid "d522594f-b799-49c1-aafb-686a9da12e2b")
+			(uuid "af8671a7-9ff4-45b0-935b-7aa80b80922e")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -2511,10 +2437,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c9ffa06-a441-4671-8136-ba43ac20f787")
+			(uuid "56fb1ee4-a8ea-4ce0-b7d9-cf376bcbd233")
 		)
 		(pin "2"
-			(uuid "e2d87544-084a-4056-b5b2-187b38090c9d")
+			(uuid "cb9505cd-537f-47bf-b3c0-3b14db4c03a3")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -2580,10 +2506,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdb72a36-dd83-4980-b883-02432d9dd85d")
+			(uuid "48d901df-1682-4953-b57d-7c6e6f21ea21")
 		)
 		(pin "2"
-			(uuid "616bd3d5-d2a8-463a-9a00-eb1675ac98a6")
+			(uuid "21e4dbdd-a90b-4f2a-af5e-962bb7596cb7")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -2602,10 +2528,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a1f68fd2-0aee-4b0d-8117-3198fb078db5")
 		(property "Reference" "U4"
-			(at 179.07 93.3449 0)
+			(at 179.07 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,8 +2538,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 179.07 95.25 0)
+		(property "Value" "TF_CARD"
+			(at 169.418 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,43 +2575,43 @@
 			)
 		)
 		(pin "2"
-			(uuid "19c3d938-58ac-4a8a-baba-9afeea69d63b")
+			(uuid "e8bf7f1a-241c-47d7-9e82-d2beadc7f310")
 		)
 		(pin "11"
-			(uuid "07c898b5-b9e7-4c49-bb47-0d29f3eec48a")
+			(uuid "c35e8a33-80ef-46dc-b687-74e2477094b7")
 		)
 		(pin "7"
-			(uuid "88e33375-d6cf-424b-8fcd-0dad4057c2a4")
+			(uuid "76ed2be8-29f2-4ad9-a44a-74dfee88c1a2")
 		)
 		(pin "4"
-			(uuid "91826b0d-2c4c-4910-bdd1-c2eccd84d1f6")
+			(uuid "f7cafe07-23fa-400d-b1c2-32a52b9ba2d2")
 		)
 		(pin "12"
-			(uuid "d1cb46c5-3ac3-4f5d-9d27-31c4e9a21708")
+			(uuid "68e8e840-df62-41ca-9aeb-164b01cbc084")
 		)
 		(pin "13"
-			(uuid "909cafb6-4e03-443d-abaa-57a1ad805c29")
+			(uuid "24b0cc09-3222-4119-bc65-85adcdd2912d")
 		)
 		(pin "6"
-			(uuid "cb901ee2-219b-47e2-ae23-6946e117846f")
+			(uuid "6dac28ce-f00a-413c-9cfe-f3e6b4ad5b5e")
 		)
 		(pin "1"
-			(uuid "e68787e3-54f7-4108-b347-2434383ef8ab")
+			(uuid "d6f12bdc-004c-4376-a192-768803f6e5b6")
 		)
 		(pin "8"
-			(uuid "2468d470-394b-4994-b081-d1c5f781ed73")
+			(uuid "94df6be5-0300-410c-ac65-954fdb6d2750")
 		)
 		(pin "10"
-			(uuid "82453f4b-5858-49e2-92c3-3c340ef76c24")
+			(uuid "4c07064b-ca4c-4915-9b9c-81502de3e1d2")
 		)
 		(pin "5"
-			(uuid "66f96cec-e4c5-433c-bc31-ae4b007cc763")
+			(uuid "f9264008-a5ae-4d68-ab0c-22d707de14ba")
 		)
 		(pin "9"
-			(uuid "73ec783d-baa1-4378-8b5b-4b047d5833b6")
+			(uuid "3ac8bcb4-284e-443b-816f-7b0694c28548")
 		)
 		(pin "3"
-			(uuid "4f4baa11-c417-4a6e-b014-a0dad48fd68b")
+			(uuid "25a47e3b-82c0-4523-a29e-964104cd38ef")
 		)
 		(instances
 			(project ""
@@ -2750,10 +2675,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4bea516-7e03-4a6a-88c3-0988b52ef653")
+			(uuid "38c260e5-b21e-47e7-b059-b6634a0fabf5")
 		)
 		(pin "2"
-			(uuid "0dcc56e0-27eb-4732-a643-04193f166bde")
+			(uuid "daff3724-4c09-4148-b8f4-5a5d10014c66")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -2819,81 +2744,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "063a495c-35ef-4979-af73-f2337e8616df")
+			(uuid "d09a6884-9b8c-47fb-a184-4f9d25b0202e")
 		)
 		(pin "2"
-			(uuid "59f7a88e-8ca6-482b-89e7-315da74289c9")
+			(uuid "85d413e7-607e-4df1-aa06-6e3f0e569a54")
 		)
 		(instances
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 146.05 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf822f7d-2112-4984-bb0a-54b58e68d077")
-		(property "Reference" "#PWR041"
-			(at 146.05 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 146.05 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce558cf3-f3b5-444b-a2a3-ed368232cf89")
-		)
-		(instances
-			(project "MarvinProjekt"
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2952,10 +2811,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "60545023-c068-4113-ab19-3ceb3a884bbc")
+			(uuid "c1238464-da3a-4177-9ac5-77c0cd44f330")
 		)
 		(pin "2"
-			(uuid "8193eea6-15fa-4978-a8ca-66c7cda6f5bf")
+			(uuid "5222c41c-60a0-4b8e-be37-f8bfc4160293")
 		)
 		(instances
 			(project "MarvinProjekt"
@@ -3019,15 +2878,147 @@
 			)
 		)
 		(pin "1"
-			(uuid "01021b18-ad3a-4a2a-ba17-94f80ce7215b")
+			(uuid "8bf2f606-4b3f-4cf5-928b-c7e1fb39f7a4")
 		)
 		(pin "2"
-			(uuid "b66dff79-584f-4977-af5d-7ee5fb48cf6f")
+			(uuid "cf84749b-74b1-41f9-9cff-ea16d7aaf41f")
 		)
 		(instances
 			(project "MarvinProjekt"
 				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 109.22 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f20247a0-b657-4f61-a808-daf039e9f68f")
+		(property "Reference" "#PWR040"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SD"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9191e28e-2b88-4e60-acac-21e341cdae60")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 146.05 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9289c88-4564-43bb-b755-a8c73c63e2c2")
+		(property "Reference" "#PWR049"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SD"
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d33ddea-a775-459f-a9ee-ec566ef99af9")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
