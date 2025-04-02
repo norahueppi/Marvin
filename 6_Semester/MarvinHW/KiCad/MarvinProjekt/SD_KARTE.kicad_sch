@@ -2000,7 +2000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6781b063-6edc-43ca-be62-ca2af35c72b0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR?"
 			(at 161.29 123.19 0)
 			(effects
 				(font
@@ -2046,6 +2046,14 @@
 		)
 		(pin "1"
 			(uuid "7782a0d1-404f-4812-b8c8-5bcd8c30f921")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/d2f13a77-7e80-46a8-9242-6bb657e20f64"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

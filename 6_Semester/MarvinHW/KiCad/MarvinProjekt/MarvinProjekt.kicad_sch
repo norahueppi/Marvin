@@ -7694,7 +7694,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c3a6231d-eb6d-4714-8419-7fd771234abb")
-		(property "Sheetname" "Untitled Sheet"
+		(property "Sheetname" "Control"
 			(at 254 88.1884 0)
 			(effects
 				(font
@@ -7703,7 +7703,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Control.kicad_sch"
 			(at 254 102.1846 0)
 			(effects
 				(font

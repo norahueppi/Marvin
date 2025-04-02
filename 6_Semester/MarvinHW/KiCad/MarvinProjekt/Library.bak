@@ -1701,7 +1701,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TPLP5907MFX-3.3"
 			(at 0 0 0)
 			(effects
 				(font
