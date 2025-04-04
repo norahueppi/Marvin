@@ -1726,7 +1726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "V_LED"
 			(at 57.15 49.53 0)
 			(effects
 				(font

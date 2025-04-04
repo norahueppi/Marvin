@@ -409,6 +409,12 @@
           "label": "Beschreibung",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -468,10 +474,6 @@
     [
       "45c6a061-c918-4955-8a15-6814a3841d54",
       "Power"
-    ],
-    [
-      "c3a6231d-eb6d-4714-8419-7fd771234abb",
-      "Control"
     ],
     [
       "d2f13a77-7e80-46a8-9242-6bb657e20f64",

@@ -63,118 +63,6 @@
 			)
 		)
 		(symbol "ES8388_1_1"
-			(text "ADCVREF"
-				(at 27.94 -25.908 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "AGND"
-				(at 29.718 0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "AVDD"
-				(at 29.718 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "HPGND"
-				(at 28.956 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "HPVDD"
-				(at 29.21 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "LOUT1"
-				(at 29.21 -6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "LOUT2"
-				(at 29.21 -14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "NC1"
-				(at 30.226 -33.528 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "NC2"
-				(at 30.226 -36.068 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "PGND"
-				(at 29.464 -41.148 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "ROUT1"
-				(at 29.21 -10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "ROUT2"
-				(at 28.956 -18.288 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "VMID"
-				(at 29.972 -23.368 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "VREF"
-				(at 29.718 -28.448 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin input line
 				(at -13.97 -13.97 0)
 				(length 2.54)
@@ -247,7 +135,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 -1.27 180)
 				(length 2.54)
 				(name "HPGND"
@@ -301,7 +189,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 8.89 180)
 				(length 2.54)
 				(name "HPVDD"
@@ -319,7 +207,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(name "AVDD"
@@ -337,7 +225,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 1.27 180)
 				(length 2.54)
 				(name "AGND"
@@ -373,7 +261,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -13.97 8.89 0)
 				(length 2.54)
 				(name "DVDD"
@@ -553,7 +441,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 -40.64 180)
 				(length 2.54)
 				(name "PGND"
@@ -571,7 +459,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -13.97 6.35 0)
 				(length 2.54)
 				(name "PVDD"
@@ -589,7 +477,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "DGND"
@@ -967,7 +855,7 @@
 			)
 		)
 		(symbol "NS4150_1_1"
-			(pin input line
+			(pin power_in line
 				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "VIN"
@@ -985,7 +873,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "PVIN"
@@ -1003,7 +891,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -10.16 -8.89 0)
 				(length 2.54)
 				(name "GNDPAD"
@@ -1111,7 +999,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "PGND"
@@ -1354,7 +1242,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -6.35 0)
 				(length 2.54)
 				(name "VDD"
@@ -1390,7 +1278,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -11.43 0)
 				(length 2.54)
 				(name "VSS"
@@ -1561,7 +1449,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
@@ -1579,7 +1467,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "VCC"
@@ -1833,6 +1721,179 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "WS2812"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -0.508 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WS2812_1_1"
+			(rectangle
+				(start -2.54 2.54)
+				(end 2.54 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -1.016) (xy 0.508 -1.524) (xy 0.508 -1.27) (xy 0.508 -1.524) (xy 0.762 -1.524)
+				)
+				(stroke
+					(width 0.0762)
+					(type default)
+					(color 159 183 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.524) (xy 0.762 -2.032) (xy 0.762 -1.778) (xy 0.762 -2.032) (xy 1.016 -2.032)
+				)
+				(stroke
+					(width 0.0762)
+					(type default)
+					(color 159 183 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 -1.778) (xy 1.27 -0.762) (xy 2.286 -0.762) (xy 1.778 -1.778) (xy 1.778 -0.508) (xy 1.778 -0.508)
+					(xy 1.778 -1.778) (xy 1.27 -1.778) (xy 2.286 -1.778) (xy 1.778 -1.778) (xy 1.778 -2.032) (xy 1.778 -1.778)
+				)
+				(stroke
+					(width 0.0762)
+					(type default)
+					(color 159 183 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin output line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 0.5842 0.5842)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 0.5842 0.5842)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 0.5842 0.5842)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.5842 0.5842)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
