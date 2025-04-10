@@ -738,7 +738,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 11.43 1.27 180)
 					(length 2.54)
 					(name "VOUT"
@@ -1283,16 +1283,16 @@
 		(uuid "4988d9d9-25e3-44c1-8b23-641eeac76f95")
 	)
 	(junction
-		(at 36.83 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6d24c76-f293-4579-8c6f-024cbdcee628")
-	)
-	(junction
 		(at 59.69 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d262dbd6-1303-4048-be94-2be6cdb6d4bc")
+	)
+	(junction
+		(at 36.83 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3fd04bd-3378-4ff6-9f04-d3c590fb726f")
 	)
 	(junction
 		(at 46.99 33.02)
@@ -1326,23 +1326,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 33.02) (xy 39.37 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05564e74-37e2-4a46-a9be-43a5e6663e72")
-	)
-	(wire
-		(pts
 			(xy 31.75 33.02) (xy 36.83 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a59738a-49df-4cb4-b63d-18b6d176ac5d")
+		(uuid "05564e74-37e2-4a46-a9be-43a5e6663e72")
 	)
 	(wire
 		(pts
@@ -1363,6 +1353,16 @@
 			(type default)
 		)
 		(uuid "13f8d17e-9582-4594-973c-ac5ad689cfd0")
+	)
+	(wire
+		(pts
+			(xy 63.5 39.37) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a1796a-7c97-465c-8f90-940e074da091")
 	)
 	(wire
 		(pts
@@ -1446,6 +1446,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 27.94) (xy 36.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b0307c-6c5f-49b2-87e3-0e5911871bf9")
+	)
+	(wire
+		(pts
 			(xy 45.72 62.23) (xy 45.72 69.85)
 		)
 		(stroke
@@ -1463,26 +1473,6 @@
 			(type default)
 		)
 		(uuid "53f16a75-9a1c-4746-adaa-752cddb919e0")
-	)
-	(wire
-		(pts
-			(xy 63.5 36.83) (xy 63.5 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef9633c-991b-42f5-ab9c-dd70c7fdb4d9")
-	)
-	(wire
-		(pts
-			(xy 36.83 29.21) (xy 36.83 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f5cea6-f351-4835-82a1-89c287e29c2e")
 	)
 	(wire
 		(pts
@@ -1553,6 +1543,16 @@
 			(type default)
 		)
 		(uuid "7e4b296c-e032-4d4b-94aa-1e77316db296")
+	)
+	(wire
+		(pts
+			(xy 36.83 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b58101-23da-4cbc-a453-f84aea73971e")
 	)
 	(wire
 		(pts
@@ -2061,13 +2061,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 58.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2246,72 +2245,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 36.83 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39118819-bdf0-4380-94cf-4187f6bbd6f5")
-		(property "Reference" "#PWR070"
-			(at 36.83 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_USB"
-			(at 33.782 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e84911e-836a-4ad8-8e50-82ff87f4b6c9")
-		)
-		(instances
-			(project "MarvinProjekt"
-				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/45c6a061-c918-4955-8a15-6814a3841d54"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 41.91 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -2395,7 +2328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_Bat"
+		(property "Value" "V_BatSW"
 			(at 38.608 103.886 0)
 			(effects
 				(font
@@ -2444,6 +2377,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 36.83 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "565d9678-711f-465e-9c1b-2a424d59ab34")
+		(property "Reference" "#PWR070"
+			(at 36.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_BatSW"
+			(at 34.798 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "190a737a-70d2-4f16-98b8-2a26330ac1f3")
+		)
+		(instances
+			(project "MarvinProjekt"
+				(path "/60735318-e0a3-4f25-848a-cb7f39bc8bbf/45c6a061-c918-4955-8a15-6814a3841d54"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Eduboard_Kicadlib:1FS1T1B9M2RES-5")
 		(at 29.21 27.94 0)
 		(unit 1)
@@ -2470,7 +2469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Matrix2_Schnuppiprojekt:SW-OS102011MA10QN1"
+		(property "Footprint" "Library:SW"
 			(at 29.21 40.64 0)
 			(effects
 				(font
@@ -2604,7 +2603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 62.23 107.95 0)
 			(effects
 				(font

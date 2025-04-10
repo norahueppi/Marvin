@@ -5149,7 +5149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:MP1720"
 			(at 102.87 153.67 0)
 			(effects
 				(font
@@ -7414,7 +7414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:LS"
 			(at 193.04 139.7 0)
 			(effects
 				(font
