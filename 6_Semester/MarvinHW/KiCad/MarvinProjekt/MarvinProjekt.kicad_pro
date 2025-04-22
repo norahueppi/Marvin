@@ -63,9 +63,7 @@
           "width": 0.24
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|118600000|88790000|6d0b40c0-770d-4ae2-b437-59a6b1d06aed|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
