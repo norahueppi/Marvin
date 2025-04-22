@@ -3230,7 +3230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~file:///C:/data/Schule/BuP/5_Semester/Marvin/MarvinProject/6_Semester/MarvinDatenblaetter/Batteriehalter/M65p27.pdf"
 			(at 97.79 87.376 90)
 			(effects
 				(font
