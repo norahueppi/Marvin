@@ -8732,7 +8732,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "85ae3886-49cf-4c88-be74-a9a589d21259")
 		(property "Reference" "J1"
