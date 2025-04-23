@@ -2441,7 +2441,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "57a5df9e-895f-4fb2-ac29-aa136aefbdc1")
 		(property "Reference" "R34"
 			(at 103.378 85.344 90)
@@ -2741,6 +2741,15 @@
 			)
 		)
 		(property "OrderNow" "x"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C16581"
 			(at 179.07 96.52 0)
 			(effects
 				(font
