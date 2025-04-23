@@ -2332,6 +2332,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "170656cf-bf7b-4b65-a4bf-d377c92d54df")
 		)
@@ -2393,6 +2402,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 105.41 92.71 0)
 			(effects
 				(font
@@ -2470,6 +2488,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a2e771a-9911-4fa3-9ee7-3c1fe4264711")
 		)
@@ -2539,6 +2566,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d865cbe8-8fe1-4c82-83be-c7745214dfee")
 		)
@@ -2600,6 +2636,24 @@
 		)
 		(property "Description" "Overcharge, overcurrent and overdischarge protection IC for single cell lithium-ion/polymer battery"
 			(at 119.634 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" "x"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C351410"
+			(at 119.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,6 +2732,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" "x"
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -2768,6 +2831,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 143.51 99.06 0)
 			(effects
 				(font
@@ -2911,6 +2983,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83aa40c1-a531-49b4-a671-1b2667dd1da9")
 		)
@@ -2972,6 +3053,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 162.56 99.06 0)
 			(effects
 				(font
@@ -3179,6 +3269,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "980e7dd2-87e3-4c8b-af30-f4499a8e3dc4")
 		)
@@ -3248,6 +3347,24 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" "x"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "36-1043P-ND"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1ecd01b-374f-4c6d-9027-c3b13448ef42")
 		)
@@ -3307,6 +3424,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" "x"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7499846"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -3394,6 +3529,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 149.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 149.86 95.25 0)
 			(effects
 				(font

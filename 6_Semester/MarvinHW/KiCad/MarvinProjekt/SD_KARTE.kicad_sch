@@ -2119,6 +2119,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "907f16f1-20e5-45be-954c-1cedd18bb617")
 		)
@@ -2243,6 +2252,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 114.3 125.73 0)
 			(effects
 				(font
@@ -2458,6 +2476,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ec36820-06d3-4c06-88ed-60d989e30d4d")
 		)
@@ -2519,6 +2546,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 137.16 86.36 0)
 			(effects
 				(font
@@ -2661,6 +2697,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8431aad2-0b29-4065-8afe-104a664918a2")
 		)
@@ -2720,6 +2765,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 157.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -2797,6 +2851,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82ef717a-9bb8-4a21-a275-e3ca888074a0")
 		)
@@ -2866,7 +2929,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6119929"
+		(property "LCSC Part" ""
+			(at 113.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 113.03 135.89 0)
 			(effects
 				(font
@@ -2934,6 +3006,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 146.05 69.85 0)
 			(effects
 				(font
@@ -3075,6 +3156,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0fb80de-892a-47b9-a815-884c2bda3da7")
 		)
@@ -3134,6 +3224,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 149.86 69.85 0)
 			(effects
 				(font
@@ -3211,6 +3310,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e792f1f-cd66-4afb-b073-d43aa00c9808")
 		)
@@ -3272,6 +3380,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -3377,6 +3494,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -3648,6 +3774,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 151.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0123412a-14ae-49e5-9dde-5a04465e7adf")
 		)
@@ -3723,7 +3858,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6119929"
+		(property "LCSC Part" ""
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 149.86 137.16 0)
 			(effects
 				(font

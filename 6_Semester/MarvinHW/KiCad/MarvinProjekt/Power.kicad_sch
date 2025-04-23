@@ -1888,7 +1888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "file:///C:/data/Schule/BuP/5_Semester/Marvin/MarvinProject/6_Semester/MarvinDatenblaetter/LinearVoltageRegulator/2411121130_TECH-PUBLIC-TPLP5907MFX-3-3_C5370990.pdf"
+		(property "Datasheet" "file:///C:/data/Schule/BuP/5_Semester/Marvin/MarvinProject/6_Semester/MarvinDatenblaetter/LinearVoltageRegulator/AP2138-9.pdf"
 			(at 63.5 34.29 0)
 			(effects
 				(font
@@ -1898,6 +1898,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" "x"
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C460335"
 			(at 63.5 34.29 0)
 			(effects
 				(font
@@ -2011,6 +2029,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 57.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "028f3762-5b49-4171-a4ca-620eb1464366")
 		)
@@ -2079,6 +2106,15 @@
 			)
 		)
 		(property "Description" "PNP Darlington transistor, base/collector/emitter"
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" "x"
 			(at 55.88 64.77 0)
 			(effects
 				(font
@@ -2159,6 +2195,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c4f204d-37a4-46fa-a645-6e3bb6b2165c")
 		)
@@ -2220,6 +2265,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 59.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 59.69 127 0)
 			(effects
 				(font
@@ -2559,6 +2613,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0b5627a8-aec9-4788-b3ce-1050fe727e2e")
 		)
@@ -2622,6 +2685,15 @@
 			)
 		)
 		(property "Description" "PNP Darlington transistor, base/collector/emitter"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" "x"
 			(at 59.69 113.03 0)
 			(effects
 				(font
@@ -2694,6 +2766,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 46.99 36.83 0)
 			(effects
 				(font
@@ -2903,6 +2984,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61d28d86-9517-457e-88f4-8630ebe38e9a")
 		)
@@ -2964,6 +3054,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 44.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 44.45 138.43 0)
 			(effects
 				(font
@@ -3099,6 +3198,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 52.07 69.85 0)
 			(effects
 				(font
@@ -3243,6 +3351,15 @@
 				(hide yes)
 			)
 		)
+		(property "OrderNow" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24d9a863-6f49-439d-9342-ebd4e0345186")
 		)
@@ -3304,6 +3421,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 80.01 36.83 0)
 			(effects
 				(font
@@ -3440,6 +3566,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNow" ""
 			(at 55.88 76.2 0)
 			(effects
 				(font
