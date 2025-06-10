@@ -16,3 +16,9 @@
 [Marvin Documentation](/documentation/documentation_marvin.md)
 
 [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+[Marvin_HW](https://github.com/norahueppi/Marvin_hw)
+
+[Marvin_SW](https://github.com/norahueppi/Marvin_sw)
+
+[Marvin_Docu](https://github.com/norahueppi/Marvin_docu)
